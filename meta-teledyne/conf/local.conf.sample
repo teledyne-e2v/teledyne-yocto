@@ -1,0 +1,76 @@
+#
+# Machine Selection
+#
+# You need to select a specific machine to target the build with.
+MACHINE ??= "verdin-imx8mm"
+
+#
+# Where to place downloads
+#
+DL_DIR ?= "${TOPDIR}/downloads"
+
+#
+# Where to place shared-state files
+#
+SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
+
+#
+# Where to place images and sw packages
+#
+DEPLOY_DIR = "${TOPDIR}/deploy"
+
+#
+# Default policy config
+#
+DISTRO ?= "teledyne-imx8mm"
+
+#
+# Package Management configuration
+#
+PACKAGE_CLASSES ?= "package_ipk"
+
+#
+# Extra image configuration defaults
+#
+EXTRA_IMAGE_FEATURES ?= "debug-tweaks package-management"
+
+#
+# Interactive shell configuration
+#
+PATCHRESOLVE = "noop"
+
+#
+# Disk Space Monitoring during the build
+#
+BB_DISKMON_DIRS ??= "\
+    STOPTASKS,${TMPDIR},1G,100K \
+    STOPTASKS,${DL_DIR},1G,100K \
+    STOPTASKS,${SSTATE_DIR},1G,100K \
+    STOPTASKS,/tmp,100M,100K \
+    ABORT,${TMPDIR},100M,1K \
+    ABORT,${DL_DIR},100M,1K \
+    ABORT,${SSTATE_DIR},100M,1K \
+    ABORT,/tmp,10M,1K"
+
+#
+# Qemu configuration
+#
+PACKAGECONFIG_append_pn-qemu-system-native = " sdl"
+PACKAGECONFIG_append_pn-nativesdk-qemu = " sdl"
+
+# CONF_VERSION is increased each time build/conf/ changes incompatibly and is used to
+# track the version of this file when it was generated. This can safely be ignored if
+# this doesn't mean anything to you.
+CONF_VERSION = "1"
+
+# This file does not need to exist, if it does it can be used to influence machine specific
+# configurations without copying the machine file.
+include conf/machine/include/${MACHINE}.inc
+
+# Accept the NXP/Freescale EULA for NXP based SoM
+ACCEPT_FSL_EULA = "1"
+
+#
+# For allowing packages with commercial licenses
+#
+LICENSE_FLAGS_WHITELIST += " commercial"

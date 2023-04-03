@@ -1,0 +1,3620 @@
+From a4d2fd7b8ec8071d39065c72bb9599022ea5fcae Mon Sep 17 00:00:00 2001
+From: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date: Fri, 31 Mar 2023 14:48:44 -0600
+Subject: [PATCH] Squashed commit of the following:
+
+commit 8ca7405bad9b62c6cce5b42f69dba6160d20dde9
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 22 17:11:18 2023 -0600
+
+    Apply kernel indent
+
+commit db0fbef5a384080bde85e842c2ada771634f1189
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 22 17:09:29 2023 -0600
+
+    Remove debug prints
+
+commit 70351465f1bd6d0c56cd82e8e04b58141e9a898d
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 22 13:58:21 2023 -0600
+
+    Add image offset support for raw8
+
+commit 57d5a06f0a580a54d41d1ad7566711421a64e3db
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 22 11:08:52 2023 -0600
+
+    Fix trigger mode control changing idle enable variable
+
+commit fea0152a178b01faa254c01e43a9158d42a1941c
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 22 11:03:20 2023 -0600
+
+    Add image offset control
+
+commit 5227b76353f6f859dab59f683ff696ab4fa21d45
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 15 17:52:40 2023 -0600
+
+    Change default and max frame rate values
+
+commit 52077afafbe125db5511ce25e3fdb612521643b7
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 15 17:41:42 2023 -0600
+
+    Change default exposure values
+
+commit 9bc10b1e7409d0e4df3bd9854e024b72b5300554
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Mar 15 17:27:22 2023 -0600
+
+    Fix SIMR not being disabled
+
+commit 7b30decbe34f22be760268766af385252eaf3647
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Feb 23 18:39:31 2023 -0600
+
+    Add test pattern configurations
+
+commit bf52caca9f375a4fb6d0a66f0bc4f74ed59e78ee
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Feb 23 16:22:15 2023 -0600
+
+    Add menu to trigger mode control
+
+commit 2a5489c1eb8586dfb7a754cf372c42fa45db6c54
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Feb 23 16:11:39 2023 -0600
+
+    Add trigger mode select control
+
+commit 9d0aa3bfa6ead43c8128745b513f8269408dd7b6
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Feb 23 15:06:17 2023 -0600
+
+    Add logic to set the trigger mode
+
+commit bac4885ef15b9017b100787d7e67c2f9e6f10bcc
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Mar 3 16:52:02 2023 -0600
+
+    Update default exposure and height control values
+
+commit ba3316410c5fb5b3c1aef54e4735a71818ac9d92
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Feb 22 13:44:19 2023 -0600
+
+    Apply kernel indent
+
+commit fb269e21ceab013384079b4486d1165bbda9cf03
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Feb 22 11:27:56 2023 -0600
+
+    Add pointer guard for sub sampling number variable
+
+commit 3fa6fde2a34189fff179704cf897bd10e608f717
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Feb 22 11:23:54 2023 -0600
+
+    Rename return variables to ret to keep consistency
+
+commit b69c9fd80a915d53e34f046b8c89d890f93cf085
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Feb 22 11:22:15 2023 -0600
+
+    Remove braces from single statement blocks
+
+commit d33c3c67a3d94631f762550a1d74f6fabc19274f
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Feb 22 11:10:53 2023 -0600
+
+    Change format of return values check to keep consistency
+
+commit 58fb8739b7d04e03a17312f91dbe758fd6e02670
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Feb 15 14:40:45 2023 -0600
+
+    Remove unused control ID
+
+commit dc72ed2e7b03014758a0319e2d68eca541097fe6
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Feb 10 13:48:52 2023 -0600
+
+    Fix defines indentation
+
+commit 5eea75ea4a55114e528793ea6cd2bdf17cc196f5
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Feb 10 11:59:49 2023 -0600
+
+    Remove debug prints when setting roi sizes
+
+commit 505ae5dc58abf3b50cb713dc030fe3ac5814afa2
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Feb 10 11:59:12 2023 -0600
+
+    Rename simr default value constant
+
+commit 16eec8e5e8b5201823de9bbfcaac35a9c5bce4d0
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Feb 10 11:55:57 2023 -0600
+
+    Remove switch enable control
+
+commit cbe6a6b6fb35f32c511ddd3ed5ef23990453213c
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Feb 9 18:00:26 2023 -0600
+
+    Remove default resolutions and keep just roi1, roi2 and simr resolutions
+
+commit ba4e18bdde263efbe34dc6ad83728d64dedff9f1
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Mon Jan 9 11:59:19 2023 -0600
+
+    Remove unnecessary debug functions
+
+commit 9908baf72622ee2da0fd869e59df1f01616a942b
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Mon Jan 9 11:54:11 2023 -0600
+
+    Fix control IDs indentation
+
+commit 5063ceeaba7990536399930c9f52e7f4589d6320
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 21 18:08:52 2022 -0600
+
+    Modify default value of ROI2 Height
+
+commit cf16a3ea4f07fe92d820cd54b84e3d7a2db9f36b
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 21 18:07:32 2022 -0600
+
+    Change Model ID check to support multiple module batches
+
+commit fc9f835f3e95a2b1d4418f629623f85ebe030fe2
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 21 17:20:02 2022 -0600
+
+    Add temporary switch enable control
+
+commit fff8bd733a3e51b4a72d8f60acf60eb41485be7a
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Dec 8 18:08:06 2022 -0600
+
+    Fix idle enable control
+
+commit 0fb3853b3ac240e576e21fba3846f995b38718b0
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Dec 8 09:13:43 2022 -0600
+
+    Change default height for ROI2
+
+commit 40dfda80df3587514b01892ae1702772b0202adb
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 18:04:42 2022 -0600
+
+    Add idle enable control
+
+commit 1a9dd185d10513afd30e3a3328a2b351f9eb7d68
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 17:48:45 2022 -0600
+
+    Add support for ROI2 sub sampling
+
+commit 7359c35efa41e6a7fb7dea7eb302c40a24d8bf15
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 16:48:18 2022 -0600
+
+    Add support for ROI2 vertical and horizontal flip
+
+commit a1ef358964bea54edefd718dc62a8747d4621f8b
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 14:43:15 2022 -0600
+
+    Add support for ROI2 digital gain
+
+commit 059587f7f336b39d13765cdb88984d4614a52da9
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 14:31:40 2022 -0600
+
+    Add support for ROI2 analog gain
+
+commit 63a2252056d750062950e00aa8aff6ec46926434
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 14:10:44 2022 -0600
+
+    Remove unnecessary prints
+
+commit 41715aa86dff102fbaae5444e8a6632823cc578b
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 14:09:21 2022 -0600
+
+    Add support for ROI2 exposure
+
+commit 23f723bc5a853cb0bfbef13215e635548f912eac
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Dec 7 11:32:09 2022 -0600
+
+    Add ROI2 dummy controls
+
+commit 1e25e0cd2c0f87ac71e8c6c3e4cec22f941db192
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Dec 1 17:20:13 2022 -0600
+
+    Add control IDs for ROI2
+
+commit 1ed13ce2bd259a0906da3782296c61cce9fa980c
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Dec 1 17:06:05 2022 -0600
+
+    Rename and reorder control IDs
+
+commit ec091b0dd6e1d21352dec23d98a148a303b5d571
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Nov 25 17:44:48 2022 -0600
+
+    Add ROI2 only support and ROI switching support
+
+commit a8942b3edf9db18ef848954603eb9977698223cb
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Nov 18 18:22:10 2022 -0600
+
+    Add fast switch approach support by modyfying roi1 size
+
+commit 162dbaf025e0d65d3ba77cf3110852025fa35256
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Nov 8 14:08:11 2022 -0600
+
+    Factor sum of variables in enum_framesizes loop
+
+commit 376a321dc623f75e682b3355487bb09f6761d195
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Nov 8 13:54:05 2022 -0600
+
+    Add warning for ROI heights above limit
+
+commit ee746b4b7ce086e7033955a4d038db1ab4347208
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Nov 8 11:25:55 2022 -0600
+
+    Add comment about SIMR enabling
+
+commit fd5810ed9299e728886f9e04666e668f24a7c5f0
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Nov 4 11:58:59 2022 -0600
+
+    Add Single integration multiple ROI control support
+
+commit fae3c0dcb632ab1315e85b248f55b00a069b982a
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Nov 2 17:02:28 2022 -0600
+
+    Change roi1 width and height minimum values
+
+commit 3394f4006fe5393e5fbe81616e76212c4d15df80
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 27 16:10:35 2022 -0600
+
+    Add extra mode for ROI window size
+
+commit e372558447d144b7bd661d95b1e27e153cec5241
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 27 13:52:46 2022 -0600
+
+    Add basic ROI control support
+
+commit fed92c8d466138cf2240dd32493ec32dff38781d
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Mon Oct 24 16:47:34 2022 -0600
+
+    Add explanation on how frame sizes are listed
+
+commit 15e560d8eca1b4a2de34eae62b23368355122db8
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 16:17:55 2022 -0600
+
+    Add pointer guards
+
+commit 5613b194404ca4d7c4c260dfd6e0ff171d1b79a0
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 15:52:19 2022 -0600
+
+    Avoid overwriting ret value when updating controls range
+
+commit a73fd979ee2d3907c2eed46dd42d388dec93f708
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 15:47:54 2022 -0600
+
+    Add enum for custom control IDs
+
+commit 8dfb725efb83d5e4b34cd7eb364a55e3eef1da18
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 15:37:34 2022 -0600
+
+    Check for error codes different than 0 instead of less than 0
+
+commit 973ee88e67d01735c6686067f9b80263b4a8ea8c
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 15:30:08 2022 -0600
+
+    Add a more robust condition to list frame sizes
+
+commit 8a9c59f359bd70e48bffe9caed6c5b06c43578a6
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 14:53:40 2022 -0600
+
+    Remove unnecessary variables for updating control ranges
+
+commit 020330e414e6f6a40beef0545057ca51e10ab7a5
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 14:43:27 2022 -0600
+
+    Replace tabs for spaces on macro definitions
+
+commit 8478023f9ebda7127dd37087aa2958a300b8118d
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 14:41:41 2022 -0600
+
+    Fix typo on exposure factor explanation
+
+commit 2ae9ba5152f5869a4799011faed424d5d0697e59
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 13:35:06 2022 -0600
+
+    Set sub sampling limit to 32
+
+commit acba56be6da9db26560d413cc111d9e6c864aa37
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 11:29:38 2022 -0600
+
+    Remove unused ret variable
+
+commit fdf96db9dd9150ef130222e46203fc19df13215e
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 20 11:28:44 2022 -0600
+
+    Allow streaming odd resolutions
+
+commit 6985bc1680ea9dfc175860b7a05c6c3dab34b1b8
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Mon Oct 17 17:27:26 2022 -0600
+
+    Remove enum frame intervals
+
+commit 20237f5615d8fc80aa8f1c84ae8940f39125ca50
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Mon Oct 17 17:17:00 2022 -0600
+
+    Add condition to accept only integer resolutions
+
+commit fa554d24ed27419667f3136a4a1a26b89f315335
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Mon Oct 17 17:05:00 2022 -0600
+
+    Fix resolution mismatch issue
+
+commit 09b1a5d8d955108b9c1d281433f22769f6d0a50f
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 13 16:34:52 2022 -0600
+
+    Add menu to analog gain control
+
+commit 3686187cb932b3df10d97b4be18030e36583148c
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 13 15:48:27 2022 -0600
+
+    Add vertical sub sampling control support
+
+commit 0b6c7345300f750482ee2f0b5140803e2df06997
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Oct 13 14:14:28 2022 -0600
+
+    Add vertical sub sampling control support
+
+commit cfcf69c377d788cfae2143716db84162497840d4
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Oct 7 16:12:55 2022 -0600
+
+    Modify controls range based on current mode
+
+commit 7c5137d23da32896b5fb01e42932d1585dccdebd
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Oct 5 17:20:48 2022 -0600
+
+    Remove lock from set format function
+
+commit e59a39240784e5b71fd814f2f2a02c00dd644f26
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Oct 5 17:14:49 2022 -0600
+
+    Add frame rate control support
+
+commit eb34641079620739c9a8de664263a7077fd35f20
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Oct 5 10:47:14 2022 -0600
+
+    Set controls before streaming
+
+commit f2267282a5e32d84f637a49fb6fdf15b137444da
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Oct 5 10:43:53 2022 -0600
+
+    Fix dev error calls arguments
+
+commit 3c5d71732ea24f339e53f80825122b0496e1ae6f
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Oct 5 10:37:23 2022 -0600
+
+    Add vertical and horizontal flip controls support
+
+commit 6fdd7ee0045a162f6d94aaa2e160d4786b898a61
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Sep 30 17:32:25 2022 -0600
+
+    Fix exposure control conversion factors and implementation
+
+commit d77bf766e4172f11cd3185d6d94cc04c3aa54e02
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Sep 30 14:40:30 2022 -0600
+
+    Remove unnecessary max and min control values check
+
+commit a75f4c68dd0e2d827da726537437dd362699048c
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Fri Sep 30 14:36:45 2022 -0600
+
+    Add exposure control support
+
+commit 838c96a1bd59090238882c0502989ed5ffd064c6
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Sep 29 14:49:15 2022 -0600
+
+    Remove debug function call from capture driver
+
+commit 00855e5caaee57450a30970e7ad6aa5dd89684bc
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Sep 29 14:37:56 2022 -0600
+
+    Add test pattern control support
+
+commit c422d83085396f7b2f5c1695f4f0dd9208b86efd
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Sep 29 11:52:42 2022 -0600
+
+    Add digital gain control support
+
+commit 5420f5442b031b823a753b91387b7ec88d5a7cfb
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Sep 28 17:13:02 2022 -0600
+
+    Add analogue gain control support
+
+commit 1a687440c3180f941cc8d3392eb5d1fa4d0e124b
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Sep 15 12:08:09 2022 -0600
+
+    Add controls support with dummy gain control
+
+commit 3a226f8f351b7145e75d8ee3df37a0f043e02630
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Sep 7 14:35:22 2022 -0600
+
+    Fix wrong table writing for 1920x800 modes
+
+commit 7f5c26cc8d36d3dc0c166bf00325a0f4bfaa1a27
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Sep 7 11:58:53 2022 -0600
+
+    Modify default mode set
+
+commit b47eb8e78fcde0ff9b533f451ed982a9a7214a61
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Sep 7 11:54:03 2022 -0600
+
+    Add 1920x800 resolution for raw8 and raw10 formats
+
+commit cb81025aced9292f1df323bf92dffd3f0d3c93e9
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Aug 31 17:17:52 2022 -0600
+
+    Remove driver enable from defconfig file
+
+commit 952a2e9c0380867c058c2f7bc29aa3e809f03478
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Aug 31 11:10:51 2022 -0600
+
+    Add braces to if statements
+
+commit 5ca45ace9870f3676a397565cc55328f727ce101
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Aug 31 11:00:37 2022 -0600
+
+    Fix indentation by using spaces on macros
+
+commit fd03a3051471a5debcbb9d7a8168d838eea07210
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Aug 30 18:01:52 2022 -0600
+
+    Remove modification of build time
+
+commit 05fe025515d7e46fadebf8e331e8f8f0a7ff6cdf
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Aug 30 17:57:27 2022 -0600
+
+    Remove unnecessary comment from dtsi
+
+commit 80d24cd2280a28b4abd4719af1e61525f4989141
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Aug 30 15:12:52 2022 -0600
+
+    Fix indentation on standy reg value
+
+commit 26c331d8811067184610740ca5cd02522874fa42
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Aug 30 15:02:56 2022 -0600
+
+    Update register tables values
+
+commit 9645ed0ee63ad025eea28027572c5a438467cdb3
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Aug 30 14:13:11 2022 -0600
+
+    Remove registers from mode tables that where overwriting pixel timing values
+
+commit 25a8dedbd731329e47940aebc8b12d6116c4c612
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Aug 30 14:12:06 2022 -0600
+
+    Fix set framesize and frameinterval for each mode
+
+commit 22d1f9c9916c7ec2b7b9d6ca85641495758d967e
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Aug 25 16:58:17 2022 -0600
+
+    Swap assignments position on table write
+
+commit 81d0710ec9b5d36d561ab7d1293e5a67af8a99ab
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Aug 25 16:51:55 2022 -0600
+
+    fix kconfig indentation
+
+commit 0c1d6389238de1e91fbc554e9462ff173a31cbc6
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Thu Aug 25 16:38:13 2022 -0600
+
+    Fix indentation and remove comments from dtsi
+
+commit 2a5fcca4bb7500e2a08300fc76eb33e4c7fd3a3e
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Aug 24 12:08:15 2022 -0600
+
+    Use Lindent tool to indent code
+
+commit 83facf865e4c68fa15bbb45affe7734cb57fc5e8
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Jul 12 17:43:05 2022 -0600
+
+    Modify driver and kernel files for topaz2m sensor support
+
+commit 9a74a9897a588ee5c60a9f33f8c02bb151279240
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Wed Jul 20 15:06:35 2022 -0600
+
+    Modify kernel build timestamp
+
+commit 41c51de1e432d672e15dfd7877ba5226a2dc5eec
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Jul 12 14:00:20 2022 -0600
+
+    Add driver contents based on imx327 driver
+
+commit 94f7f5e4710c783030441ab73478d97132bdad92
+Author: Alejandro Flores <alejandro.flores@ridgerun.com>
+Date:   Tue Jun 28 18:11:23 2022 -0600
+
+    Add base driver files
+---
+ .../boot/dts/freescale/imx8mm-verdin.dtsi     |   61 +
+ drivers/media/i2c/Kconfig                     |   10 +
+ drivers/media/i2c/Makefile                    |    1 +
+ drivers/media/i2c/teledyne-topaz2m.c          | 2071 +++++++++++++++++
+ drivers/media/i2c/teledyne-topaz2m.h          |  409 ++++
+ .../media/platform/mxc/capture/mx6s_capture.c |   54 +-
+ .../media/platform/mxc/capture/mxc_mipi_csi.c |   41 +-
+ drivers/media/v4l2-core/v4l2-ctrls.c          |   38 +
+ include/uapi/linux/v4l2-controls.h            |   32 +-
+ 9 files changed, 2689 insertions(+), 28 deletions(-)
+ create mode 100644 drivers/media/i2c/teledyne-topaz2m.c
+ create mode 100644 drivers/media/i2c/teledyne-topaz2m.h
+
+diff --git a/arch/arm64/boot/dts/freescale/imx8mm-verdin.dtsi b/arch/arm64/boot/dts/freescale/imx8mm-verdin.dtsi
+index eb9cf2576..b05afce66 100755
+--- a/arch/arm64/boot/dts/freescale/imx8mm-verdin.dtsi
++++ b/arch/arm64/boot/dts/freescale/imx8mm-verdin.dtsi
+@@ -551,6 +551,30 @@
+ 	pinctrl-1 = <&pinctrl_i2c3_gpio>;
+ 	scl-gpios = <&gpio5 18 (GPIO_ACTIVE_HIGH | GPIO_OPEN_DRAIN)>;
+ 	sda-gpios = <&gpio5 19 (GPIO_ACTIVE_HIGH | GPIO_OPEN_DRAIN)>;
++
++	topaz2m: topaz2m@10 {
++		compatible = "teledyne,topaz2m";
++		reg = <0x10>;
++		status = "okay";
++		pinctrl-names = "default";
++		pinctrl-0 = <&pinctrl_gpio5>;
++		pwdn-gpio = <&gpio1 0 GPIO_ACTIVE_HIGH>;
++		csi_id = <0>;
++		mclk = <24000000>;
++		ports {
++			#address-cells = <1>;
++			#size-cells = <0>;
++			port@0 {
++				reg = <0>;
++				status = "okay";
++				topaz2m_port: endpoint {
++					remote-endpoint = <&mipi1_sensor_ep>;
++					data-lanes = <1 2>;
++					clock-lanes = <0>;
++				};
++			};
++		};
++	};
+ };
+ 
+ /* Verdin I2C_1 */
+@@ -641,6 +665,43 @@
+ 	};
+ };
+ 
++&mipi_csi_1 {
++	#address-cells = <1>;
++	#size-cells = <0>;
++	status = "okay";
++	ports {
++		#address-cells = <1>;
++		#size-cells = <0>;
++		port@0{
++			reg = <0>;
++			#address-cells = <1>;
++			#size-cells = <0>;
++			status = "okay";
++			csi1_mipi_ep: endpoint@0 {
++				reg = <0>;
++				remote-endpoint = <&csi1_ep>;
++			};
++
++			mipi1_sensor_ep: endpoint@1 {
++				reg = <1>;
++				remote-endpoint = <&topaz2m_port>;
++				data-lanes = <2>;
++				csis-wclk;
++			};
++		};
++	};
++};
++
++&csi1_bridge {
++	fsl,mipi-mode;
++	status = "okay";
++	port {
++		csi1_ep: endpoint {
++			remote-endpoint = <&csi1_mipi_ep>;
++		};
++	};
++};
++
+ &mu {
+ 	status = "okay";
+ };
+diff --git a/drivers/media/i2c/Kconfig b/drivers/media/i2c/Kconfig
+index fcffcc31d..ea03643d9 100644
+--- a/drivers/media/i2c/Kconfig
++++ b/drivers/media/i2c/Kconfig
+@@ -566,6 +566,16 @@ config VIDEO_APTINA_PLL
+ config VIDEO_SMIAPP_PLL
+ 	tristate
+ 
++config VIDEO_TELEDYNE_TOPAZ2M
++	tristate "Topaz 2M CMOS sensor support"
++	depends on I2C && VIDEO_V4L2 && VIDEO_V4L2_SUBDEV_API
++	help
++	  This is a Video4Linux2 sensor driver for the
++	  Teledyne Topaz 2M CMOS image sensor.
++
++	  To compile this driver as a module, choose M here: the module
++	  will be called teledyne-topaz2m.
++
+ config VIDEO_IMX214
+ 	tristate "Sony IMX214 sensor support"
+ 	depends on GPIOLIB && I2C && VIDEO_V4L2 && VIDEO_V4L2_SUBDEV_API
+diff --git a/drivers/media/i2c/Makefile b/drivers/media/i2c/Makefile
+index beb170b00..b0b7d445a 100644
+--- a/drivers/media/i2c/Makefile
++++ b/drivers/media/i2c/Makefile
+@@ -115,5 +115,6 @@ obj-$(CONFIG_VIDEO_IMX274)	+= imx274.o
+ obj-$(CONFIG_VIDEO_IMX319)	+= imx319.o
+ obj-$(CONFIG_VIDEO_IMX355)	+= imx355.o
+ obj-$(CONFIG_VIDEO_ST_MIPID02) += st-mipid02.o
++obj-$(CONFIG_VIDEO_TELEDYNE_TOPAZ2M) += teledyne-topaz2m.o
+ 
+ obj-$(CONFIG_SDR_MAX2175) += max2175.o
+diff --git a/drivers/media/i2c/teledyne-topaz2m.c b/drivers/media/i2c/teledyne-topaz2m.c
+new file mode 100644
+index 000000000..29d13b9ab
+--- /dev/null
++++ b/drivers/media/i2c/teledyne-topaz2m.c
+@@ -0,0 +1,2071 @@
++/*
++ * teledyne-topaz2m.c - topaz2m sensor driver
++ *
++ * Copyright (c) 2022, RidgeRun, LLC.  All rights reserved.
++ *
++ * This program is free software; you can redistribute it and/or modify it
++ * under the terms and conditions of the GNU General Public License,
++ * version 2, as published by the Free Software Foundation.
++ *
++ * This program is distributed in the hope it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
++ * more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ */
++
++#include <linux/module.h>
++#include <linux/init.h>
++#include <linux/slab.h>
++#include <linux/ctype.h>
++#include <linux/types.h>
++#include <linux/delay.h>
++#include <linux/clk.h>
++#include <linux/of_device.h>
++#include <linux/i2c.h>
++#include <linux/of_gpio.h>
++#include <linux/pinctrl/consumer.h>
++#include <linux/regulator/consumer.h>
++#include <linux/v4l2-mediabus.h>
++#include <linux/regmap.h>
++#include <media/v4l2-device.h>
++#include <media/v4l2-ctrls.h>
++
++#include "teledyne-topaz2m.h"
++
++/* Chip ID is made up of 3 parts:
++ * 4 bits Chip family Topaz (MSB)
++ * 8 bits Chip part number
++ * 4 bits Sensor revision (LSB)
++ *
++ * Chip family Topaz section has to be 8 for Topaz sensor
++ * Chip part number section bit 0 has to be 1 for B&W sensor
++ * Due to this, mask F010 is applied to check the Chip ID
++ */
++#define TOPAZ2M_MODEL_ID_ADDR   0x7F
++#define TOPAZ2M_MODEL_ID_MASK   0xF010
++#define TOPAZ2M_MODEL_ID_VAL    0x8010
++
++#define TOPAZ2M_CONTROL_REG_ADDR      0x02
++#define TOPAZ2M_SENSOR_STATE_MASK     0xFFF0
++#define TOPAZ2M_ACQUISITION_MODE_VAL  0x0008
++#define TOPAZ2M_STANDBY_MODE_VAL      0x0001
++#define TOPAZ2M_IDLE_MODE_VAL         0x0004
++
++#define TOPAZ2M_TIMING_RAM_INIT_ADDR  0x4F
++
++#define TOPAZ2M_DEFAULT_MODE 0
++
++#define TOPAZ2M_ROI1_ANA_GAIN_ADDR  0x0D
++#define TOPAZ2M_ROI2_ANA_GAIN_ADDR  0x16
++#define TOPAZ2M_ANA_GAIN_MIN        0
++#define TOPAZ2M_ANA_GAIN_DEF        TOPAZ2M_ANA_GAIN_MIN
++#define TOPAZ2M_ANA_GAIN_STEP       1
++
++#define TOPAZ2M_ROI1_DIG_GAIN_ADDR  0x0E
++#define TOPAZ2M_ROI2_DIG_GAIN_ADDR  0x17
++#define TOPAZ2M_DIG_GAIN_MIN        1
++#define TOPAZ2M_DIG_GAIN_MAX        4096
++#define TOPAZ2M_DIG_GAIN_DEF        256
++#define TOPAZ2M_DIG_GAIN_STEP       1
++
++#define TOPAZ2M_TEST_PATTERN_ADDR          0x04
++#define TOPAZ2M_TEST_PATTERN_CONF_1_ADDR   0x25
++#define TOPAZ2M_TEST_PATTERN_CONF_2_ADDR   0x26
++#define TOPAZ2M_TEST_PATTERN_MIN           0
++#define TOPAZ2M_TEST_PATTERN_DEF           TOPAZ2M_TEST_PATTERN_MIN
++
++#define TOPAZ2M_ROI1_EXPOSURE_COARSE_TIME_ADDR  0x0B
++#define TOPAZ2M_ROI1_EXPOSURE_FINE_TIME_ADDR    0x0C
++#define TOPAZ2M_ROI2_EXPOSURE_COARSE_TIME_ADDR  0x14
++#define TOPAZ2M_ROI2_EXPOSURE_FINE_TIME_ADDR    0x15
++#define TOPAZ2M_FRAME_RATE_PERIOD_ADDR          0x07
++#define TOPAZ2M_LINE_LENGTH_ADDR                0x06
++
++/* The exposure conversion factor is calculated as
++ * a conversion factor from microseconds (us) to
++ * nanoseconds (ns) divided by a clock period
++ * of 20 ns (for a 50MHz clk)
++ * (1000 ns/us) / (20 ns) = 50
++ */
++#define TOPAZ2M_EXPOSURE_CONV_FACTOR    50
++
++/* Exposure time values in microseconds (us) */
++#define TOPAZ2M_EXPOSURE_TIME_MIN       5
++#define TOPAZ2M_EXPOSURE_TIME_MAX       500000
++#define TOPAZ2M_EXPOSURE_TIME_RAW8_DEF  9180
++#define TOPAZ2M_EXPOSURE_TIME_RAW10_DEF 14040
++#define TOPAZ2M_EXPOSURE_TIME_STEP      1
++
++#define TOPAZ2M_ROI1_MISC_ADDR   0x13
++#define TOPAZ2M_ROI2_MISC_ADDR   0x1A
++#define TOPAZ2M_FLIP_MIN    0
++#define TOPAZ2M_FLIP_MAX    1
++#define TOPAZ2M_FLIP_DEF    TOPAZ2M_FLIP_MIN
++#define TOPAZ2M_FLIP_STEP   1
++#define TOPAZ2M_HFLIP_SHIFT 1
++#define TOPAZ2M_VFLIP_SHIFT 0
++
++#define TOPAZ2M_FRAME_RATE_MIN         5
++#define TOPAZ2M_FRAME_RATE_RAW8_MAX    988
++#define TOPAZ2M_FRAME_RATE_RAW10_MAX   646
++#define TOPAZ2M_FRAME_RATE_RAW8_DEF    100
++#define TOPAZ2M_FRAME_RATE_RAW10_DEF   65
++#define TOPAZ2M_FRAME_RATE_STEP        1
++#define TOPAZ2M_MASTER_CLK_FREQ_HZ     50000000
++
++#define TOPAZ2M_EXT_ROI_ID_EN_SHIFT 6
++#define TOPAZ2M_CONFIG_ROI_ID_SHIFT 5
++#define TOPAZ2M_SIMR_ENABLE_DEF     0
++#define TOPAZ2M_ROI_SELECT_MIN      1
++#define TOPAZ2M_ROI_SELECT_MAX      2
++#define TOPAZ2M_ROI_SELECT_DEF      TOPAZ2M_ROI_SELECT_MIN
++#define TOPAZ2M_ROI_SELECT_STEP     1
++
++#define TOPAZ2M_ROI_WIDTH_ADDR         0x10
++#define TOPAZ2M_ROI_OFFSET_COL_ADDR    0x12
++#define TOPAZ2M_ROI_WIDTH_MIN          64
++#define TOPAZ2M_ROI_WIDTH_MAX          1920
++#define TOPAZ2M_ROI_WIDTH_DEF          TOPAZ2M_ROI_WIDTH_MAX
++#define TOPAZ2M_ROI_WIDTH_STEP         2
++#define TOPAZ2M_ROI_OFFSET_COL_MIN     0
++#define TOPAZ2M_ROI_OFFSET_COL_MAX     1920
++#define TOPAZ2M_ROI_OFFSET_COL_DEF     TOPAZ2M_ROI_OFFSET_COL_MIN
++#define TOPAZ2M_ROI_OFFSET_STEP        1
++
++#define TOPAZ2M_ROI1_HEIGHT_ADDR        0x0F
++#define TOPAZ2M_ROI1_OFFSET_ROW_ADDR    0x11
++#define TOPAZ2M_ROI1_HEIGHT_MIN         32
++#define TOPAZ2M_ROI1_HEIGHT_MAX         1080
++#define TOPAZ2M_ROI1_HEIGHT_DEF         TOPAZ2M_ROI1_HEIGHT_MAX
++#define TOPAZ2M_ROI1_HEIGHT_STEP        2
++#define TOPAZ2M_ROI1_OFFSET_ROW_MIN     0
++#define TOPAZ2M_ROI1_OFFSET_ROW_MAX     1080
++#define TOPAZ2M_ROI1_OFFSET_ROW_DEF     TOPAZ2M_ROI1_OFFSET_ROW_MIN
++
++#define TOPAZ2M_SIMR_ENABLE_ADDR        0x03
++#define TOPAZ2M_SIMR_ENABLE_SHIFT       7
++#define TOPAZ2M_MIMR_ENABLE_SHIFT       8
++#define TOPAZ2M_ROI2_HEIGHT_ADDR        0x18
++#define TOPAZ2M_ROI2_OFFSET_ROW_ADDR    0x19
++#define TOPAZ2M_ROI2_HEIGHT_MIN         0
++#define TOPAZ2M_ROI2_HEIGHT_MAX         1080
++#define TOPAZ2M_ROI2_HEIGHT_DEF         0
++#define TOPAZ2M_ROI2_HEIGHT_STEP        2
++#define TOPAZ2M_ROI2_OFFSET_ROW_MIN     0
++#define TOPAZ2M_ROI2_OFFSET_ROW_MAX     1080
++#define TOPAZ2M_ROI2_OFFSET_ROW_DEF     TOPAZ2M_ROI2_OFFSET_ROW_MIN
++
++#define TOPAZ2M_SUB_SAMPLING_MASK       7
++#define TOPAZ2M_H_SUB_SAMPLING_SHIFT    5
++#define TOPAZ2M_V_SUB_SAMPLING_SHIFT    2
++#define TOPAZ2M_SUB_SAMPLING_MIN        0
++#define TOPAZ2M_SUB_SAMPLING_DEF        TOPAZ2M_SUB_SAMPLING_MIN
++#define TOPAZ2M_SUB_SAMPLING_DEF_NUM    1
++
++#define TOPAZ2M_TRIGGER_SEL_ADDR        0x03
++#define TOPAZ2M_TRIGGER_MODE_MIN        0
++#define TOPAZ2M_TRIGGER_MODE_DEF        TOPAZ2M_TRIGGER_MODE_MIN
++#define TOPAZ2M_TRIGGER_MODE_MASK       3
++#define TOPAZ2M_TRIGGER_MODE_SHIFT      10
++
++#define TOPAZ2M_IMAGE_OFFSET_ADDR       0x22
++#define TOPAZ2M_IMAGE_OFFSET_RAW8_MIN   -256
++#define TOPAZ2M_IMAGE_OFFSET_RAW8_MAX   255
++#define TOPAZ2M_IMAGE_OFFSET_RAW10_MIN  -512
++#define TOPAZ2M_IMAGE_OFFSET_RAW10_MAX  511
++#define TOPAZ2M_IMAGE_OFFSET_DEF        0
++#define TOPAZ2M_IMAGE_OFFSET_STEP       1
++
++#define TOPAZ2_NUM_CTRLS_HINT 5
++
++static const char *const
++ topaz2m_analog_gain_ops[] = {
++	"1.00 (0.00 dB)",
++	"1.20 (1.58 dB)",
++	"1.45 (3.23 dB)",
++	"1.71 (4.66 dB)",
++	"2.00 (6.02 dB)",
++	"2.40 (7.60 dB)",
++	"3.00 (9.54 dB)",
++	"3.43 (10.71 dB)",
++	"4.00 (12.04 dB)",
++	"4.80 (13.62 dB)",
++	"6.00 (15.56 dB)",
++	"6.86 (16.73 dB)",
++	"8.00 (18.06 dB)",
++	"9.60 (19.65 dB)",
++	"12.00 (21.58 dB)",
++	"16.00 (24.08 dB)",
++};
++
++static const char *const
++ topaz2m_test_pattern_ops[] = {
++	"Disabled",
++	"Front pattern - Diagonal",
++	"Rear pattern: Diagonal - Fixed",
++	"Column increment - Fixed",
++	"Line increment - Fixed",
++	"Diagonal - Moving",
++	"Column increment - Moving",
++	"Line increment - Moving",
++	"Uniform 0",
++	"Uniform 20",
++	"Uniform 127",
++	"Uniform 255",
++	"Uniform 511",
++	"Uniform 1023",
++};
++
++enum topaz2m_test_pattern_id {
++	TOPAZ2M_TP_DISABLED = 0,
++	TOPAZ2M_TP_FRONT_D,
++	TOPAZ2M_TP_REAR_DF,
++	TOPAZ2M_TP_COLUMN_INCREMENT_F,
++	TOPAZ2M_TP_LINE_INCREMENT_F,
++	TOPAZ2M_TP_DIAGONAL_M,
++	TOPAZ2M_TP_COLUMN_INCREMENT_M,
++	TOPAZ2M_TP_LINE_INCREMENT_M,
++	TOPAZ2M_TP_UNIFORM_0,
++	TOPAZ2M_TP_UNIFORM_20,
++	TOPAZ2M_TP_UNIFORM_127,
++	TOPAZ2M_TP_UNIFORM_255,
++	TOPAZ2M_TP_UNIFORM_511,
++	TOPAZ2M_TP_UNIFORM_1023,
++};
++
++static const char *const
++ topaz2m_sub_sampling_ops[] = {
++	"No sub sampling",
++	"Sub sampling 2",
++	"Sub sampling 4",
++	"Sub sampling 8",
++	"Sub sampling 16",
++	"Sub sampling 32",
++};
++
++static const char *const
++ topaz2m_trigger_mode_ops[] = {
++	"Internal self-trigger",
++	"External Frame Trigger",
++	"External ITC Trigger",
++};
++
++enum topaz2m_mode_id {
++	TOPAZ2M_MODE_RAW8_ROI1 = 0,
++	TOPAZ2M_MODE_RAW8_ROI2,
++	TOPAZ2M_MODE_RAW8_SIMR,
++	TOPAZ2M_MODE_RAW10_ROI1,
++	TOPAZ2M_MODE_RAW10_ROI2,
++	TOPAZ2M_MODE_RAW10_SIMR,
++	TOPAZ2M_NUM_MODES,
++};
++
++enum topaz2m_format_id {
++	TOPAZ2M_FORMAT_RAW8 = 0,
++	TOPAZ2M_FORMAT_RAW10,
++	TOPAZ2M_NUM_FORMATS,
++};
++
++enum topaz2m_framesize_id {
++	TOPAZ2M_FRAMESIZE_ROI1 = 0,
++	TOPAZ2M_FRAMESIZE_ROI2,
++	TOPAZ2M_FRAMESIZE_SIMR,
++	TOPAZ2M_NUM_FRAMESIZES,
++};
++
++struct topaz2m_mode_info {
++	enum topaz2m_mode_id id;
++	u32 fmt_code;
++	enum v4l2_colorspace colorspace;
++	u32 width;
++	u32 height;
++	u8 frameinterval;
++};
++
++/* Modes with the same pixel format must be listed consecutively */
++static const struct
++topaz2m_mode_info topaz2m_modes[TOPAZ2M_NUM_MODES] = {
++	{ TOPAZ2M_MODE_RAW8_ROI1, MEDIA_BUS_FMT_Y8_1X8,
++	 V4L2_COLORSPACE_SRGB, 1920, 1080, 100 },
++	{ TOPAZ2M_MODE_RAW8_ROI2, MEDIA_BUS_FMT_Y8_1X8,
++	 V4L2_COLORSPACE_SRGB, 1920, 1080, 100 },
++	{ TOPAZ2M_MODE_RAW8_SIMR, MEDIA_BUS_FMT_Y8_1X8,
++	 V4L2_COLORSPACE_SRGB, 1920, 1080, 100 },
++	{ TOPAZ2M_MODE_RAW10_ROI1, MEDIA_BUS_FMT_Y10_1X10,
++	 V4L2_COLORSPACE_SRGB, 1920, 1080, 65 },
++	{ TOPAZ2M_MODE_RAW10_ROI2, MEDIA_BUS_FMT_Y10_1X10,
++	 V4L2_COLORSPACE_SRGB, 1920, 1080, 65 },
++	{ TOPAZ2M_MODE_RAW10_SIMR, MEDIA_BUS_FMT_Y10_1X10,
++	 V4L2_COLORSPACE_SRGB, 1920, 1080, 65 }
++};
++
++struct topaz2m_ctrls {
++	struct v4l2_ctrl_handler handler;
++
++	struct v4l2_ctrl *frame_rate;
++
++	struct v4l2_ctrl *idle_enable;
++	struct v4l2_ctrl *image_offset;
++
++	struct v4l2_ctrl *roi_offset_col;
++	struct v4l2_ctrl *roi_select;
++	struct v4l2_ctrl *roi_width;
++
++	struct v4l2_ctrl *roi1_ana_gain;
++	struct v4l2_ctrl *roi1_dig_gain;
++	struct v4l2_ctrl *roi1_exposure;
++	struct v4l2_ctrl *roi1_hflip;
++	struct v4l2_ctrl *roi1_vflip;
++	struct v4l2_ctrl *roi1_height;
++	struct v4l2_ctrl *roi1_offset_row;
++	struct v4l2_ctrl *roi1_h_sub_sampling;
++	struct v4l2_ctrl *roi1_v_sub_sampling;
++
++	struct v4l2_ctrl *roi2_ana_gain;
++	struct v4l2_ctrl *roi2_dig_gain;
++	struct v4l2_ctrl *roi2_exposure;
++	struct v4l2_ctrl *roi2_hflip;
++	struct v4l2_ctrl *roi2_vflip;
++	struct v4l2_ctrl *roi2_height;
++	struct v4l2_ctrl *roi2_offset_row;
++	struct v4l2_ctrl *roi2_h_sub_sampling;
++	struct v4l2_ctrl *roi2_v_sub_sampling;
++
++	struct v4l2_ctrl *test_pattern;
++	struct v4l2_ctrl *trigger_mode;
++};
++
++struct topaz2m {
++	struct v4l2_subdev subdev;
++	struct i2c_client *i2c_client;
++	struct regmap *regmap;
++	struct topaz2m_ctrls ctrls;
++
++	bool on;
++	int csi;
++	int pwdn_gpio;
++
++	int roi_width;
++	int roi1_height;
++	int roi2_height;
++	bool simr_enable;
++
++	bool idle_enable;
++
++	int roi1_h_sub_sampling_num;
++	int roi1_v_sub_sampling_num;
++	int roi2_h_sub_sampling_num;
++	int roi2_v_sub_sampling_num;
++
++	struct mutex lock;
++	const struct topaz2m_mode_info *current_mode;
++	struct v4l2_mbus_framefmt fmt;
++	bool streaming;
++
++};
++
++static const struct regmap_config sensor_regmap_config = {
++	.reg_bits = 8,
++	.val_bits = 16,
++	.cache_type = REGCACHE_RBTREE,
++};
++
++static inline int topaz2m_read_reg(struct topaz2m *sensor, u8 addr,
++				   unsigned int *val);
++
++static inline int topaz2m_write_reg(struct topaz2m *sensor, u8 addr, u16 val);
++
++static inline int
++topaz2m_write_table(struct topaz2m *sensor, topaz2m_reg * mode_table,
++		    s32 array_size);
++
++static inline int
++topaz2m_write_pixel_timing_table(struct topaz2m *sensor,
++				 topaz2m_reg * mode_table, s32 array_size);
++
++static int topaz2m_set_state(struct topaz2m *sensor, u16 state);
++
++static int topaz2m_probe(struct i2c_client *client,
++			 const struct i2c_device_id *id);
++
++static int topaz2m_remove(struct i2c_client *client);
++
++static int topaz2m_init_controls(struct topaz2m *sensor);
++
++static int topaz2m_s_ctrl(struct v4l2_ctrl *ctrl);
++
++static int topaz2m_set_analog_gain(struct topaz2m *sensor, s32 value,
++				   u8 ana_gain_addr);
++
++static int topaz2m_set_digital_gain(struct topaz2m *sensor, s32 value,
++				    u8 dig_gain_addr);
++
++static int
++topaz2m_set_exposure(struct topaz2m *sensor,
++		     s32 value, u8 coarse_time_addr, u8 fine_time_addr);
++
++static int topaz2m_set_flip(struct topaz2m *sensor, s32 do_flip, int shift,
++			    u8 flip_addr);
++
++static int topaz2m_set_frame_rate(struct topaz2m *sensor, s32 value);
++
++static int topaz2m_set_test_pattern(struct topaz2m *sensor, s32 value);
++
++static int
++topaz2m_set_sub_sampling(struct topaz2m *sensor,
++			 s32 value, int shift, u8 sub_sampling_addr,
++			 int *sub_sampling_num);
++
++static int topaz2m_set_roi_offset(struct topaz2m *sensor, s32 value,
++				  u8 offset_addr);
++
++static int topaz2m_set_roi_size(struct topaz2m *sensor, s32 value,
++				u8 size_addr);
++
++static int topaz2m_set_roi_selection(struct topaz2m *sensor, s32 value);
++
++static int topaz2m_set_idle(struct topaz2m *sensor, s32 value);
++
++static int topaz2m_set_trigger_mode(struct topaz2m *sensor, s32 value);
++
++static int topaz2m_set_image_offset(struct topaz2m *sensor, s32 value);
++
++static const struct v4l2_ctrl_ops topaz2m_ctrl_ops = {
++	.s_ctrl = topaz2m_s_ctrl,
++};
++
++static inline struct topaz2m *to_topaz2m(const struct i2c_client *client)
++{
++	return container_of(i2c_get_clientdata(client), struct topaz2m, subdev);
++}
++
++static inline struct v4l2_subdev *ctrl_to_sd(struct v4l2_ctrl *ctrl)
++{
++	return &container_of(ctrl->handler, struct topaz2m,
++			     ctrls.handler)->subdev;
++}
++
++static inline struct topaz2m *sd_to_topaz2m(struct v4l2_subdev *subdev)
++{
++	return container_of(subdev, struct topaz2m, subdev);
++}
++
++static int topaz2m_power_on(struct topaz2m *sensor)
++{
++	struct i2c_client *client = sensor->i2c_client;
++	int ret = 0;
++
++	if (sensor->pwdn_gpio < 0)
++		return -EIO;
++
++	gpio_set_value(sensor->pwdn_gpio, 1);
++
++	if (ret) {
++		dev_err(&client->dev, "Failed to power on device");
++		sensor->on = false;
++		return -EIO;
++	}
++
++	sensor->on = true;
++
++	return ret;
++}
++
++static int topaz2m_power_off(struct topaz2m *sensor)
++{
++
++	struct i2c_client *client = sensor->i2c_client;
++	int ret = 0;
++
++	if (sensor->pwdn_gpio < 0)
++		return -EIO;
++
++	gpio_set_value(sensor->pwdn_gpio, 0);
++
++	if (ret) {
++		dev_err(&client->dev, "Failed to power off device");
++		return -EIO;
++	}
++
++	sensor->streaming = false;
++	sensor->on = false;
++
++	return ret;
++}
++
++static int topaz2m_set_power(struct v4l2_subdev *sd, int on)
++{
++	struct i2c_client *client = v4l2_get_subdevdata(sd);
++	struct topaz2m *sensor = to_topaz2m(client);
++
++	if (on && !sensor->on)
++		topaz2m_power_on(sensor);
++	else if (!on && sensor->on)
++		topaz2m_power_off(sensor);
++
++	return 0;
++}
++
++static inline int topaz2m_read_reg(struct topaz2m *sensor, u8 addr,
++				   unsigned int *val)
++{
++	return regmap_read(sensor->regmap, addr, (unsigned int *)val);
++}
++
++static inline int topaz2m_write_reg(struct topaz2m *sensor, u8 addr, u16 val)
++{
++	struct i2c_client *client = sensor->i2c_client;
++	int ret = 0;
++
++	ret = regmap_write(sensor->regmap, addr, val);
++	if (ret)
++		dev_err(&client->dev, "I2C write failed, %x = %x", addr, val);
++
++	return ret;
++}
++
++static int
++topaz2m_write_table(struct topaz2m *sensor, topaz2m_reg * mode_table,
++		    s32 array_size)
++{
++	register u8 reg_addr = 0;
++	register u16 val = 0;
++	int i, ret = 0;
++	register u32 delay_ms = 0;
++
++	for (i = 0; i < array_size; ++i, ++mode_table) {
++		reg_addr = mode_table->reg_addr;
++		val = mode_table->val;
++		delay_ms = mode_table->delay_ms;
++		ret = topaz2m_write_reg(sensor, reg_addr, val);
++
++		if (ret)
++			goto err;
++
++		if (delay_ms)
++			msleep(delay_ms);
++	}
++
++err:
++	return ret;
++}
++
++static int
++topaz2m_write_pixel_timing_table(struct topaz2m *sensor,
++				 topaz2m_reg * mode_table, s32 array_size)
++{
++	register u8 reg_addr = 0;
++	register u16 val = 0;
++	int i, ret = 0;
++	register u32 delay_ms = 0;
++
++	for (i = 0; i < array_size; ++i, ++mode_table) {
++		reg_addr = mode_table->reg_addr;
++		val = mode_table->val;
++
++		/* Write pixel timing RAM memory offset (0x0000 to 0x0097) */
++		ret =
++		    topaz2m_write_reg(sensor, TOPAZ2M_TIMING_RAM_INIT_ADDR, i);
++		delay_ms = mode_table->delay_ms;
++
++		if (ret)
++			goto err;
++
++		if (delay_ms)
++			msleep(delay_ms);
++
++		/* Write pixel timing RAM memory data */
++		ret = topaz2m_write_reg(sensor, reg_addr, val);
++		delay_ms = mode_table->delay_ms;
++
++		if (ret)
++			goto err;
++
++		if (delay_ms)
++			msleep(delay_ms);
++	}
++
++err:
++	return ret;
++}
++
++static int topaz2m_set_state(struct topaz2m *sensor, u16 state)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during Control register read, ret=%d\n", ret);
++		return ret;
++	}
++
++	reg_val &= TOPAZ2M_SENSOR_STATE_MASK;
++	reg_val |= state;
++
++	ret = topaz2m_write_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR, reg_val);
++	if (ret)
++		dev_err(&client->dev, "Failed to set sensor state\n");
++
++	return ret;
++}
++
++static int
++topazm_set_ctrl_values(struct topaz2m *sensor, enum topaz2m_mode_id id)
++{
++	struct i2c_client *client = NULL;
++	struct topaz2m_ctrls *ctrls = NULL;
++	s64 exposure_time_def = 0;
++	s64 frame_rate_max = 0;
++	s64 frame_rate_def = 0;
++	s64 image_offset_min = 0;
++	s64 image_offset_max = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++	ctrls = &sensor->ctrls;
++
++	switch (id) {
++	case TOPAZ2M_MODE_RAW10_ROI1:
++	case TOPAZ2M_MODE_RAW10_ROI2:
++	case TOPAZ2M_MODE_RAW10_SIMR:
++		frame_rate_max = TOPAZ2M_FRAME_RATE_RAW10_MAX;
++		frame_rate_def = TOPAZ2M_FRAME_RATE_RAW10_DEF;
++		exposure_time_def = TOPAZ2M_EXPOSURE_TIME_RAW10_DEF;
++		image_offset_min = TOPAZ2M_IMAGE_OFFSET_RAW10_MIN;
++		image_offset_max = TOPAZ2M_IMAGE_OFFSET_RAW10_MAX;
++		break;
++
++	case TOPAZ2M_MODE_RAW8_ROI1:
++	case TOPAZ2M_MODE_RAW8_ROI2:
++	case TOPAZ2M_MODE_RAW8_SIMR:
++	default:
++		frame_rate_max = TOPAZ2M_FRAME_RATE_RAW8_MAX;
++		frame_rate_def = TOPAZ2M_FRAME_RATE_RAW8_DEF;
++		exposure_time_def = TOPAZ2M_EXPOSURE_TIME_RAW8_DEF;
++		image_offset_min = TOPAZ2M_IMAGE_OFFSET_RAW8_MIN;
++		image_offset_max = TOPAZ2M_IMAGE_OFFSET_RAW8_MAX;
++	}
++
++	ret = v4l2_ctrl_modify_range(ctrls->frame_rate, TOPAZ2M_FRAME_RATE_MIN,
++				     frame_rate_max, TOPAZ2M_FRAME_RATE_STEP,
++				     frame_rate_def);
++
++	if (ret) {
++		dev_err(&client->dev,
++			"Failed to updated frame rate control range, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	ret =
++	    v4l2_ctrl_modify_range(ctrls->roi1_exposure,
++				   TOPAZ2M_EXPOSURE_TIME_MIN,
++				   TOPAZ2M_EXPOSURE_TIME_MAX,
++				   TOPAZ2M_EXPOSURE_TIME_STEP,
++				   exposure_time_def);
++
++	if (ret) {
++		dev_err(&client->dev,
++			"Failed to updated ROI1 exposure control range, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	ret =
++	    v4l2_ctrl_modify_range(ctrls->roi2_exposure,
++				   TOPAZ2M_EXPOSURE_TIME_MIN,
++				   TOPAZ2M_EXPOSURE_TIME_MAX,
++				   TOPAZ2M_EXPOSURE_TIME_STEP,
++				   exposure_time_def);
++
++	if (ret) {
++		dev_err(&client->dev,
++			"Failed to updated ROI2 exposure control range, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	ret =
++	    v4l2_ctrl_modify_range(ctrls->roi2_exposure,
++				   image_offset_min,
++				   image_offset_max,
++				   TOPAZ2M_IMAGE_OFFSET_STEP,
++				   TOPAZ2M_IMAGE_OFFSET_DEF);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to updated image offset control range, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static int topaz2m_set_stream(struct v4l2_subdev *sd, int enable)
++{
++	struct i2c_client *client = v4l2_get_subdevdata(sd);
++	struct topaz2m *sensor = to_topaz2m(client);
++	static topaz2m_reg *conf_table = NULL;
++	s32 array_size = 0;
++	int ret = 0;
++
++	if (sensor->streaming == !enable) {
++
++		conf_table = mode_table_common;
++		array_size = ARRAY_SIZE(mode_table_common);
++		ret = topaz2m_write_table(sensor, conf_table, array_size);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set common table\n");
++			return ret;
++		}
++
++		conf_table = pixel_timing;
++		array_size = ARRAY_SIZE(pixel_timing);
++		ret =
++		    topaz2m_write_pixel_timing_table(sensor, conf_table,
++						     array_size);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set pixel timing\n");
++			return ret;
++		}
++
++		switch (sensor->current_mode->id) {
++
++		case TOPAZ2M_MODE_RAW8_ROI1:
++		case TOPAZ2M_MODE_RAW8_ROI2:
++		case TOPAZ2M_MODE_RAW8_SIMR:
++			conf_table = mode_1920x800_130fps;
++			array_size = ARRAY_SIZE(mode_1920x800_130fps);
++			break;
++
++		case TOPAZ2M_MODE_RAW10_ROI1:
++		case TOPAZ2M_MODE_RAW10_ROI2:
++		case TOPAZ2M_MODE_RAW10_SIMR:
++			conf_table = mode_1920x800_80fps;
++			array_size = ARRAY_SIZE(mode_1920x800_80fps);
++			break;
++
++		default:
++			dev_err(&client->dev,
++				"Format does not match with a supported mode. Setting default mode.\n");
++			conf_table = mode_1920x800_130fps;
++			array_size = ARRAY_SIZE(mode_1920x800_130fps);
++		}
++
++		ret = topaz2m_write_table(sensor, conf_table, array_size);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set format table\n");
++			return ret;
++		}
++
++		/* Set controls values */
++		v4l2_ctrl_handler_setup(sensor->subdev.ctrl_handler);
++
++		/* Set device to acquisition mode */
++		ret = topaz2m_set_state(sensor, TOPAZ2M_ACQUISITION_MODE_VAL);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set stream\n");
++			return ret;
++		}
++	} else {
++		/* Set device to standby mode */
++		ret = topaz2m_set_state(sensor, TOPAZ2M_STANDBY_MODE_VAL);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set standby mode\n");
++			return ret;
++		}
++	}
++
++	if (!ret)
++		sensor->streaming = enable;
++
++	return ret;
++}
++
++static int topaz2m_try_fmt_internal(struct v4l2_mbus_framefmt *fmt,
++				    const struct topaz2m_mode_info **new_mode,
++				    struct i2c_client *client)
++{
++	struct topaz2m *sensor = to_topaz2m(client);
++	int efective_height = 0;
++	int efective_width = 0;
++	int i = 0;
++
++	for (i = 0; i < TOPAZ2M_NUM_MODES; i++) {
++		if (i == TOPAZ2M_MODE_RAW8_ROI1 || i == TOPAZ2M_MODE_RAW10_ROI1) {
++			efective_height =
++			    sensor->roi1_height /
++			    sensor->roi1_v_sub_sampling_num;
++			efective_width =
++			    sensor->roi_width / sensor->roi1_h_sub_sampling_num;
++		} else if (i == TOPAZ2M_MODE_RAW8_ROI2
++			   || i == TOPAZ2M_MODE_RAW10_ROI2) {
++			efective_height =
++			    sensor->roi2_height /
++			    sensor->roi2_v_sub_sampling_num;
++			efective_width =
++			    sensor->roi_width / sensor->roi2_h_sub_sampling_num;
++		} else {
++			/* SIMR modes height will be the sum of both ROIs heights */
++			efective_height =
++			    (sensor->roi1_height +
++			     sensor->roi2_height) /
++			    sensor->roi1_v_sub_sampling_num;
++			efective_width =
++			    sensor->roi_width / sensor->roi1_h_sub_sampling_num;
++		}
++
++		if (topaz2m_modes[i].fmt_code == fmt->code &&
++		    efective_width == fmt->width &&
++		    efective_height == fmt->height) {
++			if (i == TOPAZ2M_MODE_RAW8_SIMR
++			    || i == TOPAZ2M_MODE_RAW10_SIMR) {
++				sensor->simr_enable = true;
++			} else {
++				sensor->simr_enable = false;
++			}
++			break;
++		}
++	}
++
++	if (i >= TOPAZ2M_NUM_MODES) {
++		i = TOPAZ2M_DEFAULT_MODE;
++		efective_height =
++		    topaz2m_modes[i].height / sensor->roi1_v_sub_sampling_num;
++		efective_width =
++		    topaz2m_modes[i].width / sensor->roi1_h_sub_sampling_num;
++		sensor->simr_enable = false;
++		fmt->height = efective_height;
++		fmt->width = efective_width;
++		dev_warn(&client->dev,
++			 "Format and resolution mismatch. Setting default values.\n");
++	}
++	if (new_mode)
++		*new_mode = &topaz2m_modes[i];
++
++	fmt->code = topaz2m_modes[i].fmt_code;
++	fmt->colorspace = topaz2m_modes[i].colorspace;
++	fmt->ycbcr_enc = V4L2_MAP_YCBCR_ENC_DEFAULT(fmt->colorspace);
++	fmt->quantization = V4L2_QUANTIZATION_FULL_RANGE;
++	fmt->xfer_func = V4L2_MAP_XFER_FUNC_DEFAULT(fmt->colorspace);
++
++	return 0;
++}
++
++static int topaz2m_set_fmt(struct v4l2_subdev *sd,
++			   struct v4l2_subdev_pad_config *cfg,
++			   struct v4l2_subdev_format *format)
++{
++	struct i2c_client *client = v4l2_get_subdevdata(sd);
++	struct topaz2m *sensor = to_topaz2m(client);
++	const struct topaz2m_mode_info *new_mode;
++	struct v4l2_mbus_framefmt *mbus_fmt = &format->format;
++	struct v4l2_mbus_framefmt *fmt = NULL;
++	int ret = 0;
++
++	if (format->pad != 0)
++		return -EINVAL;
++
++	if (sensor->streaming) {
++		ret = -EBUSY;
++		return ret;
++	}
++
++	ret = topaz2m_try_fmt_internal(mbus_fmt, &new_mode, client);
++	if (ret)
++		return ret;
++
++	if (format->which == V4L2_SUBDEV_FORMAT_TRY)
++		fmt = v4l2_subdev_get_try_format(sd, cfg, 0);
++	else
++		fmt = &sensor->fmt;
++
++	*fmt = *mbus_fmt;
++
++	if (new_mode != sensor->current_mode) {
++		sensor->current_mode = new_mode;
++		topazm_set_ctrl_values(sensor, sensor->current_mode->id);
++	}
++
++	sensor->fmt = *mbus_fmt;
++
++	return ret;
++}
++
++static int topaz2m_get_fmt(struct v4l2_subdev *sd,
++			   struct v4l2_subdev_pad_config *cfg,
++			   struct v4l2_subdev_format *format)
++{
++
++	struct v4l2_mbus_framefmt *fmt = &format->format;
++	struct i2c_client *client = v4l2_get_subdevdata(sd);
++	struct topaz2m *sensor = to_topaz2m(client);
++
++	if (!format->pad) {
++		dev_err(&client->dev, "Failed to get format\n");
++		return -EINVAL;
++	}
++
++	fmt = &sensor->fmt;
++
++	return 0;
++}
++
++static int topaz2m_enum_mbus_code(struct v4l2_subdev *sd,
++				  struct v4l2_subdev_pad_config *cfg,
++				  struct v4l2_subdev_mbus_code_enum *code)
++{
++	if (code->pad || code->index >= TOPAZ2M_NUM_FORMATS)
++		return -EINVAL;
++
++	code->code =
++	    topaz2m_modes[code->index * TOPAZ2M_NUM_FRAMESIZES].fmt_code;
++
++	return 0;
++}
++
++static int topaz2m_enum_framesizes(struct v4l2_subdev *sd,
++				   struct v4l2_subdev_pad_config *cfg,
++				   struct v4l2_subdev_frame_size_enum *fse)
++{
++	struct i2c_client *client = v4l2_get_subdevdata(sd);
++	struct topaz2m *sensor = to_topaz2m(client);
++	int mode_index = 0;
++	int i = 0;
++
++	if (fse->index < 0 || fse->index >= TOPAZ2M_NUM_FRAMESIZES)
++		return -EINVAL;
++
++	fse->max_width = topaz2m_modes[TOPAZ2M_DEFAULT_MODE].width;
++	fse->max_height = topaz2m_modes[TOPAZ2M_DEFAULT_MODE].height;
++
++	/* It is assumed that all the pixel formats have the same amount
++	 * of frame sizes.
++	 * The variable i will index each pixel format, and mode_index
++	 * will iterate through each resolution of the current pixel format.
++	 */
++	for (i = 0; i <= TOPAZ2M_NUM_FRAMESIZES; i = i + TOPAZ2M_NUM_FRAMESIZES) {
++		if (fse->code == topaz2m_modes[i].fmt_code) {
++			mode_index = i + fse->index;
++			if ((mode_index) == TOPAZ2M_MODE_RAW8_ROI1 ||
++			    (mode_index) == TOPAZ2M_MODE_RAW10_ROI1) {
++				fse->max_width =
++				    sensor->roi_width /
++				    sensor->roi1_h_sub_sampling_num;
++				fse->max_height =
++				    sensor->roi1_height /
++				    sensor->roi1_v_sub_sampling_num;
++			} else if ((mode_index) == TOPAZ2M_MODE_RAW8_ROI2
++				   || (mode_index) == TOPAZ2M_MODE_RAW10_ROI2) {
++				fse->max_width =
++				    sensor->roi_width /
++				    sensor->roi2_h_sub_sampling_num;
++				fse->max_height =
++				    sensor->roi2_height /
++				    sensor->roi2_v_sub_sampling_num;
++			} else {
++				fse->max_width =
++				    sensor->roi_width /
++				    sensor->roi1_h_sub_sampling_num;
++				/* SIMR modes height will be the sum of both ROIs heights */
++				fse->max_height =
++				    (sensor->roi1_height +
++				     sensor->roi2_height) /
++				    sensor->roi1_v_sub_sampling_num;
++			}
++			break;
++		}
++	}
++
++	fse->min_width = fse->max_width;
++	fse->min_height = fse->max_height;
++
++	return 0;
++}
++
++static struct v4l2_subdev_core_ops topaz2m_subdev_core_ops = {
++	.s_power = topaz2m_set_power,
++};
++
++static struct v4l2_subdev_video_ops topaz2m_subdev_video_ops = {
++	.s_stream = topaz2m_set_stream
++};
++
++static const struct v4l2_subdev_pad_ops topaz2m_subdev_pad_ops = {
++	.enum_frame_size = topaz2m_enum_framesizes,
++	.enum_mbus_code = topaz2m_enum_mbus_code,
++	.set_fmt = topaz2m_set_fmt,
++	.get_fmt = topaz2m_get_fmt,
++};
++
++static struct v4l2_subdev_ops topaz2m_subdev_ops = {
++	.core = &topaz2m_subdev_core_ops,
++	.video = &topaz2m_subdev_video_ops,
++	.pad = &topaz2m_subdev_pad_ops,
++};
++
++static int topaz2m_probe(struct i2c_client *client,
++			 const struct i2c_device_id *id)
++{
++	struct topaz2m *sensor;
++	struct device *dev = &client->dev;
++	struct v4l2_mbus_framefmt *fmt;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	sensor = devm_kzalloc(dev, sizeof(*sensor), GFP_KERNEL);
++	if (!sensor) {
++		dev_err(dev, "Unable to allocate memory!");
++		return -ENOMEM;
++	}
++
++	sensor->i2c_client = client;
++
++	fmt = &sensor->fmt;
++	fmt->code = topaz2m_modes[TOPAZ2M_DEFAULT_MODE].fmt_code;
++	fmt->colorspace = V4L2_COLORSPACE_SRGB;
++	fmt->ycbcr_enc = V4L2_MAP_YCBCR_ENC_DEFAULT(fmt->colorspace);
++	fmt->quantization = V4L2_QUANTIZATION_FULL_RANGE;
++	fmt->xfer_func = V4L2_MAP_XFER_FUNC_DEFAULT(fmt->colorspace);
++	fmt->width = topaz2m_modes[TOPAZ2M_DEFAULT_MODE].width;
++	fmt->height = topaz2m_modes[TOPAZ2M_DEFAULT_MODE].height;
++	fmt->field = V4L2_FIELD_NONE;
++
++	sensor->current_mode = &topaz2m_modes[TOPAZ2M_DEFAULT_MODE];
++	sensor->simr_enable = TOPAZ2M_SIMR_ENABLE_DEF;
++	sensor->roi1_height = TOPAZ2M_ROI1_HEIGHT_DEF;
++	sensor->roi2_height = TOPAZ2M_ROI2_HEIGHT_DEF;
++	sensor->roi_width = TOPAZ2M_ROI_WIDTH_DEF;
++	sensor->roi1_h_sub_sampling_num = TOPAZ2M_SUB_SAMPLING_DEF_NUM;
++	sensor->roi1_v_sub_sampling_num = TOPAZ2M_SUB_SAMPLING_DEF_NUM;
++	sensor->roi2_h_sub_sampling_num = TOPAZ2M_SUB_SAMPLING_DEF_NUM;
++	sensor->roi2_v_sub_sampling_num = TOPAZ2M_SUB_SAMPLING_DEF_NUM;
++
++	sensor->regmap = devm_regmap_init_i2c(client, &sensor_regmap_config);
++	if (IS_ERR(sensor->regmap)) {
++		dev_err(dev,
++			"Regmap init failed: %ld\n", PTR_ERR(sensor->regmap));
++		return -ENODEV;
++	}
++
++	sensor->pwdn_gpio = of_get_named_gpio(dev->of_node, "pwdn-gpio", 0);
++	if (!gpio_is_valid(sensor->pwdn_gpio)) {
++		dev_err(dev, "No sensor pwdn pin available");
++	} else {
++		ret = devm_gpio_request_one(dev, sensor->pwdn_gpio,
++					    GPIOF_OUT_INIT_LOW, "topaz2m_pwdn");
++		if (ret) {
++			dev_err(dev, "Failed to set pwdn pin\n");
++			return ret;
++		}
++	}
++
++	ret = of_property_read_u32(dev->of_node, "csi_id", &(sensor->csi));
++	if (ret) {
++		dev_err(dev, "csi id missing or invalid\n");
++		return ret;
++	}
++
++	ret = topaz2m_power_on(sensor);
++	if (ret)
++		return ret;
++
++	/* Read sensor model */
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_MODEL_ID_ADDR, &reg_val);
++	if (ret) {
++		dev_err(dev, "Error during i2c read probe, ret=%d\n", ret);
++		return ret;
++	}
++
++	/* Apply mask to check for Chip family and sensor color */
++	reg_val &= TOPAZ2M_MODEL_ID_MASK;
++
++	if (reg_val == TOPAZ2M_MODEL_ID_VAL)
++		dev_info(dev, "TOPAZ2M sensor found\n");
++	else {
++		dev_err(dev, "No TOPAZ2M sensor found\n");
++		ret = -ENODEV;
++		return ret;
++	}
++
++	v4l2_i2c_subdev_init(&sensor->subdev, client, &topaz2m_subdev_ops);
++
++	ret = topaz2m_init_controls(sensor);
++	if (ret)
++		dev_err(dev, "Failed initializing controls, ret=%d\n", ret);
++
++	ret = v4l2_async_register_subdev(&sensor->subdev);
++	if (ret)
++		dev_err(dev, "Async register failed, ret=%d\n", ret);
++
++	return ret;
++}
++
++static int topaz2m_remove(struct i2c_client *client)
++{
++	struct v4l2_subdev *sd = i2c_get_clientdata(client);
++	struct topaz2m *sensor = to_topaz2m(client);
++
++	v4l2_async_unregister_subdev(sd);
++
++	topaz2m_power_off(sensor);
++
++	return 0;
++}
++
++static int topaz2m_init_controls(struct topaz2m *sensor)
++{
++	const struct v4l2_ctrl_ops *ops = &topaz2m_ctrl_ops;
++	struct topaz2m_ctrls *ctrls = NULL;
++	struct v4l2_ctrl_handler *hdl = NULL;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	ctrls = &sensor->ctrls;
++	hdl = &ctrls->handler;
++
++	v4l2_ctrl_handler_init(hdl, TOPAZ2_NUM_CTRLS_HINT);
++
++	hdl->lock = &sensor->lock;
++
++	ctrls->roi1_ana_gain =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_ROI1_ANA_GAIN,
++					 ARRAY_SIZE(topaz2m_analog_gain_ops) -
++					 1, TOPAZ2M_ANA_GAIN_MIN,
++					 TOPAZ2M_ANA_GAIN_DEF,
++					 topaz2m_analog_gain_ops);
++
++	ctrls->roi2_ana_gain =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_ROI2_ANA_GAIN,
++					 ARRAY_SIZE(topaz2m_analog_gain_ops) -
++					 1, TOPAZ2M_ANA_GAIN_MIN,
++					 TOPAZ2M_ANA_GAIN_DEF,
++					 topaz2m_analog_gain_ops);
++
++	ctrls->roi1_dig_gain =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI1_DIG_GAIN,
++			      TOPAZ2M_DIG_GAIN_MIN, TOPAZ2M_DIG_GAIN_MAX,
++			      TOPAZ2M_DIG_GAIN_STEP, TOPAZ2M_DIG_GAIN_DEF);
++
++	ctrls->roi2_dig_gain =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI2_DIG_GAIN,
++			      TOPAZ2M_DIG_GAIN_MIN, TOPAZ2M_DIG_GAIN_MAX,
++			      TOPAZ2M_DIG_GAIN_STEP, TOPAZ2M_DIG_GAIN_DEF);
++
++	ctrls->roi1_exposure =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI1_EXPOSURE,
++			      TOPAZ2M_EXPOSURE_TIME_MIN,
++			      TOPAZ2M_EXPOSURE_TIME_MAX,
++			      TOPAZ2M_EXPOSURE_TIME_STEP,
++			      TOPAZ2M_EXPOSURE_TIME_RAW8_DEF);
++
++	ctrls->roi2_exposure =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI2_EXPOSURE,
++			      TOPAZ2M_EXPOSURE_TIME_MIN,
++			      TOPAZ2M_EXPOSURE_TIME_MAX,
++			      TOPAZ2M_EXPOSURE_TIME_STEP,
++			      TOPAZ2M_EXPOSURE_TIME_RAW8_DEF);
++
++	ctrls->roi1_hflip = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI1_HFLIP,
++					      TOPAZ2M_FLIP_MIN,
++					      TOPAZ2M_FLIP_MAX,
++					      TOPAZ2M_FLIP_STEP,
++					      TOPAZ2M_FLIP_DEF);
++
++	ctrls->roi2_hflip = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI2_HFLIP,
++					      TOPAZ2M_FLIP_MIN,
++					      TOPAZ2M_FLIP_MAX,
++					      TOPAZ2M_FLIP_STEP,
++					      TOPAZ2M_FLIP_DEF);
++
++	ctrls->roi1_vflip = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI1_VFLIP,
++					      TOPAZ2M_FLIP_MIN,
++					      TOPAZ2M_FLIP_MAX,
++					      TOPAZ2M_FLIP_STEP,
++					      TOPAZ2M_FLIP_DEF);
++
++	ctrls->roi2_vflip = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI2_VFLIP,
++					      TOPAZ2M_FLIP_MIN,
++					      TOPAZ2M_FLIP_MAX,
++					      TOPAZ2M_FLIP_STEP,
++					      TOPAZ2M_FLIP_DEF);
++
++	ctrls->frame_rate = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_FRAME_RATE,
++					      TOPAZ2M_FRAME_RATE_MIN,
++					      TOPAZ2M_FRAME_RATE_RAW8_MAX,
++					      TOPAZ2M_FRAME_RATE_STEP,
++					      TOPAZ2M_FRAME_RATE_RAW8_DEF);
++
++	ctrls->test_pattern =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_TOPAZ_TEST_PATTERN,
++					 ARRAY_SIZE(topaz2m_test_pattern_ops) -
++					 1, TOPAZ2M_TEST_PATTERN_MIN,
++					 TOPAZ2M_TEST_PATTERN_DEF,
++					 topaz2m_test_pattern_ops);
++
++	ctrls->roi_select = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI_SELECT,
++					      TOPAZ2M_ROI_SELECT_MIN,
++					      TOPAZ2M_ROI_SELECT_MAX,
++					      TOPAZ2M_ROI_SELECT_STEP,
++					      TOPAZ2M_ROI_SELECT_DEF);
++
++	ctrls->roi_width = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI_WIDTH,
++					     TOPAZ2M_ROI_WIDTH_MIN,
++					     TOPAZ2M_ROI_WIDTH_MAX,
++					     TOPAZ2M_ROI_WIDTH_STEP,
++					     TOPAZ2M_ROI_WIDTH_DEF);
++
++	ctrls->roi1_height = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI1_HEIGHT,
++					       TOPAZ2M_ROI1_HEIGHT_MIN,
++					       TOPAZ2M_ROI1_HEIGHT_MAX,
++					       TOPAZ2M_ROI1_HEIGHT_STEP,
++					       TOPAZ2M_ROI1_HEIGHT_DEF);
++
++	ctrls->roi2_height = v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI2_HEIGHT,
++					       TOPAZ2M_ROI2_HEIGHT_MIN,
++					       TOPAZ2M_ROI2_HEIGHT_MAX,
++					       TOPAZ2M_ROI2_HEIGHT_STEP,
++					       TOPAZ2M_ROI2_HEIGHT_DEF);
++
++	ctrls->roi_offset_col =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI_OFFSET_COL,
++			      TOPAZ2M_ROI_OFFSET_COL_MIN,
++			      TOPAZ2M_ROI_OFFSET_COL_MAX,
++			      TOPAZ2M_ROI_OFFSET_STEP,
++			      TOPAZ2M_ROI_OFFSET_COL_DEF);
++
++	ctrls->roi1_offset_row =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI1_OFFSET_ROW,
++			      TOPAZ2M_ROI1_OFFSET_ROW_MIN,
++			      TOPAZ2M_ROI1_OFFSET_ROW_MAX,
++			      TOPAZ2M_ROI_OFFSET_STEP,
++			      TOPAZ2M_ROI1_OFFSET_ROW_DEF);
++
++	ctrls->roi2_offset_row =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_ROI2_OFFSET_ROW,
++			      TOPAZ2M_ROI2_OFFSET_ROW_MIN,
++			      TOPAZ2M_ROI2_OFFSET_ROW_MAX,
++			      TOPAZ2M_ROI_OFFSET_STEP,
++			      TOPAZ2M_ROI2_OFFSET_ROW_DEF);
++
++	ctrls->roi1_h_sub_sampling =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_ROI1_HSUB_SAMPLING,
++					 ARRAY_SIZE(topaz2m_sub_sampling_ops) -
++					 1, TOPAZ2M_SUB_SAMPLING_MIN,
++					 TOPAZ2M_SUB_SAMPLING_DEF,
++					 topaz2m_sub_sampling_ops);
++
++	ctrls->roi2_h_sub_sampling =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_ROI2_HSUB_SAMPLING,
++					 ARRAY_SIZE(topaz2m_sub_sampling_ops) -
++					 1, TOPAZ2M_SUB_SAMPLING_MIN,
++					 TOPAZ2M_SUB_SAMPLING_DEF,
++					 topaz2m_sub_sampling_ops);
++
++	ctrls->roi1_v_sub_sampling =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_ROI1_VSUB_SAMPLING,
++					 ARRAY_SIZE(topaz2m_sub_sampling_ops) -
++					 1, TOPAZ2M_SUB_SAMPLING_MIN,
++					 TOPAZ2M_SUB_SAMPLING_DEF,
++					 topaz2m_sub_sampling_ops);
++
++	ctrls->roi2_v_sub_sampling =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_ROI2_VSUB_SAMPLING,
++					 ARRAY_SIZE(topaz2m_sub_sampling_ops) -
++					 1, TOPAZ2M_SUB_SAMPLING_MIN,
++					 TOPAZ2M_SUB_SAMPLING_DEF,
++					 topaz2m_sub_sampling_ops);
++
++	ctrls->idle_enable =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_IDLE_TOGGLE, 0, 1, 1, 0);
++
++	ctrls->trigger_mode =
++	    v4l2_ctrl_new_std_menu_items(hdl, ops, V4L2_CID_TRIGGER_MODE,
++					 ARRAY_SIZE(topaz2m_trigger_mode_ops) -
++					 1, TOPAZ2M_TRIGGER_MODE_MIN,
++					 TOPAZ2M_TRIGGER_MODE_DEF,
++					 topaz2m_trigger_mode_ops);
++
++	ctrls->image_offset =
++	    v4l2_ctrl_new_std(hdl, ops, V4L2_CID_IMAGE_OFFSET,
++			      TOPAZ2M_IMAGE_OFFSET_RAW8_MIN,
++			      TOPAZ2M_IMAGE_OFFSET_RAW8_MAX,
++			      TOPAZ2M_IMAGE_OFFSET_STEP,
++			      TOPAZ2M_IMAGE_OFFSET_DEF);
++
++	if (hdl->error) {
++		ret = hdl->error;
++		goto free_ctrls;
++	}
++
++	sensor->subdev.ctrl_handler = hdl;
++	return 0;
++
++free_ctrls:
++	v4l2_ctrl_handler_free(hdl);
++	return ret;
++}
++
++static int topaz2m_s_ctrl(struct v4l2_ctrl *ctrl)
++{
++	struct v4l2_subdev *sd = ctrl_to_sd(ctrl);
++	struct topaz2m *sensor = sd_to_topaz2m(sd);
++	struct i2c_client *client = sensor->i2c_client;
++	s32 value = ctrl->val;
++	int ret = 0;
++
++	switch (ctrl->id) {
++	case V4L2_CID_ROI1_ANA_GAIN:
++		topaz2m_set_analog_gain(sensor, value,
++					TOPAZ2M_ROI1_ANA_GAIN_ADDR);
++		break;
++	case V4L2_CID_ROI2_ANA_GAIN:
++		topaz2m_set_analog_gain(sensor, value,
++					TOPAZ2M_ROI2_ANA_GAIN_ADDR);
++		break;
++	case V4L2_CID_ROI1_DIG_GAIN:
++		topaz2m_set_digital_gain(sensor, value,
++					 TOPAZ2M_ROI1_DIG_GAIN_ADDR);
++		break;
++	case V4L2_CID_ROI2_DIG_GAIN:
++		topaz2m_set_digital_gain(sensor, value,
++					 TOPAZ2M_ROI2_DIG_GAIN_ADDR);
++		break;
++	case V4L2_CID_ROI1_EXPOSURE:
++		topaz2m_set_exposure(sensor, value,
++				     TOPAZ2M_ROI1_EXPOSURE_COARSE_TIME_ADDR,
++				     TOPAZ2M_ROI1_EXPOSURE_FINE_TIME_ADDR);
++		break;
++	case V4L2_CID_ROI2_EXPOSURE:
++		topaz2m_set_exposure(sensor, value,
++				     TOPAZ2M_ROI2_EXPOSURE_COARSE_TIME_ADDR,
++				     TOPAZ2M_ROI2_EXPOSURE_FINE_TIME_ADDR);
++		break;
++	case V4L2_CID_ROI1_HFLIP:
++		topaz2m_set_flip(sensor, value, TOPAZ2M_HFLIP_SHIFT,
++				 TOPAZ2M_ROI1_MISC_ADDR);
++		break;
++	case V4L2_CID_ROI2_HFLIP:
++		topaz2m_set_flip(sensor, value, TOPAZ2M_HFLIP_SHIFT,
++				 TOPAZ2M_ROI2_MISC_ADDR);
++		break;
++	case V4L2_CID_ROI1_VFLIP:
++		topaz2m_set_flip(sensor, value, TOPAZ2M_VFLIP_SHIFT,
++				 TOPAZ2M_ROI1_MISC_ADDR);
++		break;
++	case V4L2_CID_ROI2_VFLIP:
++		topaz2m_set_flip(sensor, value, TOPAZ2M_VFLIP_SHIFT,
++				 TOPAZ2M_ROI2_MISC_ADDR);
++		break;
++	case V4L2_CID_FRAME_RATE:
++		topaz2m_set_frame_rate(sensor, value);
++		break;
++	case V4L2_CID_TOPAZ_TEST_PATTERN:
++		topaz2m_set_test_pattern(sensor, value);
++		break;
++	case V4L2_CID_ROI_SELECT:
++		topaz2m_set_roi_selection(sensor, value);
++		break;
++	case V4L2_CID_ROI_WIDTH:
++		topaz2m_set_roi_size(sensor, value, TOPAZ2M_ROI_WIDTH_ADDR);
++		break;
++	case V4L2_CID_ROI1_HEIGHT:
++		topaz2m_set_roi_size(sensor, value, TOPAZ2M_ROI1_HEIGHT_ADDR);
++		break;
++	case V4L2_CID_ROI2_HEIGHT:
++		topaz2m_set_roi_size(sensor, value, TOPAZ2M_ROI2_HEIGHT_ADDR);
++		break;
++	case V4L2_CID_ROI_OFFSET_COL:
++		topaz2m_set_roi_offset(sensor, value,
++				       TOPAZ2M_ROI_OFFSET_COL_ADDR);
++		break;
++	case V4L2_CID_ROI1_OFFSET_ROW:
++		topaz2m_set_roi_offset(sensor, value,
++				       TOPAZ2M_ROI1_OFFSET_ROW_ADDR);
++		break;
++	case V4L2_CID_ROI2_OFFSET_ROW:
++		topaz2m_set_roi_offset(sensor, value,
++				       TOPAZ2M_ROI2_OFFSET_ROW_ADDR);
++		break;
++	case V4L2_CID_ROI1_HSUB_SAMPLING:
++		topaz2m_set_sub_sampling(sensor,
++					 value, TOPAZ2M_H_SUB_SAMPLING_SHIFT,
++					 TOPAZ2M_ROI1_MISC_ADDR,
++					 &sensor->roi1_h_sub_sampling_num);
++		break;
++	case V4L2_CID_ROI2_HSUB_SAMPLING:
++		topaz2m_set_sub_sampling(sensor,
++					 value, TOPAZ2M_H_SUB_SAMPLING_SHIFT,
++					 TOPAZ2M_ROI2_MISC_ADDR,
++					 &sensor->roi2_h_sub_sampling_num);
++		break;
++	case V4L2_CID_ROI1_VSUB_SAMPLING:
++		topaz2m_set_sub_sampling(sensor,
++					 value, TOPAZ2M_V_SUB_SAMPLING_SHIFT,
++					 TOPAZ2M_ROI1_MISC_ADDR,
++					 &sensor->roi1_v_sub_sampling_num);
++		break;
++	case V4L2_CID_ROI2_VSUB_SAMPLING:
++		topaz2m_set_sub_sampling(sensor,
++					 value, TOPAZ2M_V_SUB_SAMPLING_SHIFT,
++					 TOPAZ2M_ROI2_MISC_ADDR,
++					 &sensor->roi2_v_sub_sampling_num);
++		break;
++	case V4L2_CID_IDLE_TOGGLE:
++		topaz2m_set_idle(sensor, value);
++		break;
++	case V4L2_CID_TRIGGER_MODE:
++		topaz2m_set_trigger_mode(sensor, value);
++		break;
++	case V4L2_CID_IMAGE_OFFSET:
++		topaz2m_set_image_offset(sensor, value);
++		break;
++	default:
++		dev_warn(&client->dev, "Unhandled control %08x (%s)\n",
++			 ctrl->id, v4l2_ctrl_get_name(ctrl->id));
++		ret = -ENOTTY;
++		break;
++	}
++
++	return ret;
++}
++
++static int topaz2m_set_analog_gain(struct topaz2m *sensor, s32 value,
++				   u8 ana_gain_addr)
++{
++	struct i2c_client *client = NULL;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_write_reg(sensor, ana_gain_addr, (u16) value);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new gain value, ret=%d\n", ret);
++
++	return ret;
++}
++
++static int topaz2m_set_digital_gain(struct topaz2m *sensor, s32 value,
++				    u8 dig_gain_addr)
++{
++	struct i2c_client *client = NULL;
++	u16 digital_gain = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	if (value >= TOPAZ2M_DIG_GAIN_MAX)
++		value = TOPAZ2M_DIG_GAIN_MAX - 1;
++
++	digital_gain = value;
++
++	ret = topaz2m_write_reg(sensor, dig_gain_addr, digital_gain);
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new gain value, ret=%d\n", ret);
++
++	return ret;
++}
++
++static int topaz2m_set_exposure(struct topaz2m *sensor,
++				s32 value, u8 coarse_time_addr,
++				u8 fine_time_addr)
++{
++	struct i2c_client *client = NULL;
++	unsigned int exposure_time_base = 0;
++	unsigned int exposure_coarse_time = 0;
++	unsigned int exposure_fine_time = 0;
++	unsigned int frame_rate_period = 0;
++	unsigned int line_length = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_LINE_LENGTH_ADDR, &line_length);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during line length register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	ret =
++	    topaz2m_read_reg(sensor, TOPAZ2M_FRAME_RATE_PERIOD_ADDR,
++			     &frame_rate_period);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during frame rate period register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	exposure_time_base = value * TOPAZ2M_EXPOSURE_CONV_FACTOR;
++
++	exposure_coarse_time = exposure_time_base / line_length;
++
++	exposure_fine_time =
++	    exposure_time_base - (exposure_coarse_time * line_length);
++
++	if (exposure_fine_time >= line_length)
++		exposure_fine_time = line_length - 1;
++
++	ret = topaz2m_write_reg(sensor, coarse_time_addr, exposure_coarse_time);
++	if (ret) {
++		dev_err(&client->dev,
++			"Failed to write new exposure coarse time value, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	ret = topaz2m_write_reg(sensor, fine_time_addr, exposure_fine_time);
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new exposure fine time value, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static int topaz2m_set_flip(struct topaz2m *sensor, s32 do_flip, int shift,
++			    u8 flip_addr)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, flip_addr, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during ROI1 (flip) register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	if (do_flip)
++		reg_val |= 1U << shift;
++	else
++		reg_val &= ~(1U << shift);
++
++	ret = topaz2m_write_reg(sensor, flip_addr, reg_val);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new flip value, ret=%d\n", ret);
++
++	return ret;
++}
++
++static int topaz2m_set_frame_rate(struct topaz2m *sensor, s32 value)
++{
++	struct i2c_client *client = NULL;
++	unsigned int frame_rate_period = 0;
++	unsigned int line_length = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_LINE_LENGTH_ADDR, &line_length);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during line length register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	frame_rate_period = TOPAZ2M_MASTER_CLK_FREQ_HZ / (value * line_length);
++
++	ret =
++	    topaz2m_write_reg(sensor, TOPAZ2M_FRAME_RATE_PERIOD_ADDR,
++			      frame_rate_period);
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new frame rate period value, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static int topaz2m_set_test_pattern(struct topaz2m *sensor, s32 value)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	unsigned int test_pattern_mode = 0;
++	unsigned int test_pattern_conf_1 = 0;
++	unsigned int test_pattern_conf_2 = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_TEST_PATTERN_ADDR, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during test pattern register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	/* Reset the two LSB */
++	reg_val = ((reg_val >> 2) << 2);
++
++	switch (value) {
++	case TOPAZ2M_TP_FRONT_D:
++		test_pattern_mode = 1;
++		test_pattern_conf_1 = 0x09;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_REAR_DF:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0x09;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_COLUMN_INCREMENT_F:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0x01;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_LINE_INCREMENT_F:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0x08;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_DIAGONAL_M:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0x49;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_COLUMN_INCREMENT_M:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0x41;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_LINE_INCREMENT_M:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0x48;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_UNIFORM_0:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0;
++		test_pattern_conf_2 = 0;
++		break;
++	case TOPAZ2M_TP_UNIFORM_20:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0;
++		test_pattern_conf_2 = 20;
++		break;
++	case TOPAZ2M_TP_UNIFORM_127:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0;
++		test_pattern_conf_2 = 127;
++		break;
++	case TOPAZ2M_TP_UNIFORM_255:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0;
++		test_pattern_conf_2 = 255;
++		break;
++	case TOPAZ2M_TP_UNIFORM_511:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0;
++		test_pattern_conf_2 = 511;
++		break;
++	case TOPAZ2M_TP_UNIFORM_1023:
++		test_pattern_mode = 2;
++		test_pattern_conf_1 = 0;
++		test_pattern_conf_2 = 1023;
++		break;
++	case TOPAZ2M_TP_DISABLED:
++	default:
++		test_pattern_mode = 0;
++		test_pattern_conf_1 = 0x09;
++		test_pattern_conf_2 = 0;
++		break;
++	}
++
++	reg_val = reg_val | test_pattern_mode;
++
++	ret = topaz2m_write_reg(sensor, TOPAZ2M_TEST_PATTERN_ADDR, reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Failed to write test pattern value, ret=%d\n", ret);
++		return ret;
++	}
++
++	ret =
++	    topaz2m_write_reg(sensor, TOPAZ2M_TEST_PATTERN_CONF_1_ADDR,
++			      test_pattern_conf_1);
++	if (ret) {
++		dev_err(&client->dev,
++			"Failed to write test pattern conf 1 value, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	ret =
++	    topaz2m_write_reg(sensor, TOPAZ2M_TEST_PATTERN_CONF_2_ADDR,
++			      test_pattern_conf_2);
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write test pattern conf 2 value, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static int topaz2m_set_roi_offset(struct topaz2m *sensor, s32 value,
++				  u8 offset_addr)
++{
++	struct i2c_client *client = NULL;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_write_reg(sensor, offset_addr, value);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new ROI offset value, ret=%d\n", ret);
++
++	return ret;
++}
++
++static int topaz2m_set_roi_size(struct topaz2m *sensor, s32 value, u8 size_addr)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int total_height = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	if (size_addr == TOPAZ2M_ROI_WIDTH_ADDR)
++		sensor->roi_width = value;
++	else {
++		if (size_addr == TOPAZ2M_ROI1_HEIGHT_ADDR)
++			sensor->roi1_height = value;
++		else
++			sensor->roi2_height = value;
++
++		total_height = sensor->roi1_height + sensor->roi2_height;
++
++		if ((total_height) > TOPAZ2M_ROI1_HEIGHT_MAX)
++			dev_warn(&client->dev,
++				 "Warning, total height ROI1+ROI2=%d is bigger than %d limit\n",
++				 total_height, TOPAZ2M_ROI1_HEIGHT_MAX);
++	}
++
++	if (sensor->simr_enable) {
++
++		/* If simr_enable flag is on, a bit has to be set on
++		 * the sensor to enable SIMR
++		 */
++
++		ret =
++		    topaz2m_read_reg(sensor, TOPAZ2M_SIMR_ENABLE_ADDR,
++				     &reg_val);
++		if (ret) {
++			dev_err(&client->dev,
++				"Error during reg_dig_config_1 register read, ret=%d\n",
++				ret);
++			return ret;
++		}
++
++		reg_val |= 1U << TOPAZ2M_SIMR_ENABLE_SHIFT;
++
++		ret =
++		    topaz2m_write_reg(sensor, TOPAZ2M_SIMR_ENABLE_ADDR,
++				      reg_val);
++	}
++
++	ret = topaz2m_write_reg(sensor, size_addr, value);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new ROI size value, ret=%d\n", ret);
++
++	return ret;
++}
++
++static int topaz2m_set_roi_selection(struct topaz2m *sensor, s32 value)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	/* Disable MIMR */
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_SIMR_ENABLE_ADDR, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during reg_dig_config_1 register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	reg_val &= ~(1U << TOPAZ2M_MIMR_ENABLE_SHIFT);
++
++	ret = topaz2m_write_reg(sensor, TOPAZ2M_SIMR_ENABLE_ADDR, reg_val);
++
++	if (ret) {
++		dev_err(&client->dev, "Failed to disable MIMR, ret=%d\n", ret);
++		return ret;
++	}
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during Control register read, ret=%d\n", ret);
++		return ret;
++	}
++
++	/* User inputs 1 or 2 to select an ROI, but register write has to be 0 or 1 */
++	value = value - 1;
++
++	/* Set ROI to be chosen by i2c signal */
++	reg_val &= ~(1U << TOPAZ2M_EXT_ROI_ID_EN_SHIFT);
++
++	/* Select ROI */
++	if (value)
++		reg_val |= value << TOPAZ2M_CONFIG_ROI_ID_SHIFT;
++	else
++		reg_val &= ~(1U << TOPAZ2M_CONFIG_ROI_ID_SHIFT);
++
++	ret = topaz2m_write_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR, reg_val);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new ROI selection value, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static int topaz2m_set_sub_sampling(struct topaz2m *sensor,
++				    s32 value, int shift, u8 sub_sampling_addr,
++				    int *sub_sampling_num)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	if (!sensor || !sub_sampling_num)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, sub_sampling_addr, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during ROI1 (sub sampling) register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	reg_val &= ~(TOPAZ2M_SUB_SAMPLING_MASK << shift);
++	reg_val |= value << shift;
++
++	ret = topaz2m_write_reg(sensor, sub_sampling_addr, reg_val);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new sub sampling value, ret=%d\n",
++			ret);
++	else
++		*sub_sampling_num = 1 << value;
++
++	return ret;
++}
++
++static int topaz2m_set_idle(struct topaz2m *sensor, s32 value)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	sensor->idle_enable = value;
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during Control register read, ret=%d\n", ret);
++		return ret;
++	}
++
++	reg_val &= ~(0xF);
++
++	if (value == 1) {
++		/* Set device to idle mode */
++		reg_val |= TOPAZ2M_IDLE_MODE_VAL;
++
++		ret =
++		    topaz2m_write_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR,
++				      reg_val);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set idle mode\n");
++			return ret;
++		}
++	} else {
++		/* Set device to acquisition mode */
++		reg_val |= TOPAZ2M_ACQUISITION_MODE_VAL;
++
++		ret =
++		    topaz2m_write_reg(sensor, TOPAZ2M_CONTROL_REG_ADDR,
++				      reg_val);
++		if (ret) {
++			dev_err(&client->dev, "Failed to set acquisition\n");
++			return ret;
++		}
++	}
++
++	return 0;
++}
++
++static int topaz2m_set_trigger_mode(struct topaz2m *sensor, s32 value)
++{
++	struct i2c_client *client = NULL;
++	unsigned int reg_val = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	ret = topaz2m_read_reg(sensor, TOPAZ2M_TRIGGER_SEL_ADDR, &reg_val);
++	if (ret) {
++		dev_err(&client->dev,
++			"Error during Trigger select register read, ret=%d\n",
++			ret);
++		return ret;
++	}
++
++	/* The user can select between 0, 1 and 2, however, at register level the
++	 * accepted values are 0, 2 and 3*/
++	if (value)
++		value = value + 1;
++
++	reg_val &= ~(TOPAZ2M_TRIGGER_MODE_MASK << TOPAZ2M_TRIGGER_MODE_SHIFT);
++	reg_val |= value << TOPAZ2M_TRIGGER_MODE_SHIFT;
++
++	ret = topaz2m_write_reg(sensor, TOPAZ2M_TRIGGER_SEL_ADDR, reg_val);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new trigger mode value, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static int topaz2m_set_image_offset(struct topaz2m *sensor, s32 value)
++{
++	struct i2c_client *client = NULL;
++	u16 twos_comp_val = 0;
++	int ret = 0;
++
++	if (!sensor)
++		return -EINVAL;
++
++	client = sensor->i2c_client;
++
++	/* The effective image offset for RAW8 format is halved, so the value written
++	 * to the sensor has to be doubled */
++	if (sensor->current_mode->fmt_code == MEDIA_BUS_FMT_Y8_1X8)
++		value = value * 2;
++
++	/* Get two's complement value in 10 bits */
++	twos_comp_val = (u16) value;
++	twos_comp_val &= 0x3FF;
++
++	ret =
++	    topaz2m_write_reg(sensor, TOPAZ2M_IMAGE_OFFSET_ADDR, twos_comp_val);
++
++	if (ret)
++		dev_err(&client->dev,
++			"Failed to write new image offset value, ret=%d\n",
++			ret);
++
++	return ret;
++}
++
++static struct of_device_id topaz2m_of_match[] = {
++	{.compatible = "teledyne,topaz2m", },
++	{ },
++};
++
++MODULE_DEVICE_TABLE(of, topaz2m_of_match);
++
++static const struct i2c_device_id topaz2m_id[] = {
++	{ "topaz2m", 0 },
++	{ }
++};
++
++static struct i2c_driver topaz2m_i2c_driver = {
++	.driver = {
++		   .name = "topaz2m",
++		   .owner = THIS_MODULE,
++		   .of_match_table = of_match_ptr(topaz2m_of_match),
++		    },
++	.probe = topaz2m_probe,
++	.remove = topaz2m_remove,
++	.id_table = topaz2m_id,
++};
++
++module_i2c_driver(topaz2m_i2c_driver);
++
++MODULE_AUTHOR("RidgeRun, LLC");
++MODULE_DESCRIPTION("TOPAZ2M Camera Driver");
++MODULE_LICENSE("GPL");
++MODULE_VERSION("0.1.0");
++MODULE_ALIAS("CSI");
+diff --git a/drivers/media/i2c/teledyne-topaz2m.h b/drivers/media/i2c/teledyne-topaz2m.h
+new file mode 100644
+index 000000000..32a44f005
+--- /dev/null
++++ b/drivers/media/i2c/teledyne-topaz2m.h
+@@ -0,0 +1,409 @@
++/*
++ * teledyne-topaz2m_mode_tbls.h - topaz2m sensor driver
++ *
++ * Copyright (c) 2022, RidgeRun. All rights reserved.
++ *
++ * Contact us: support@ridgerun.com
++ *
++ * Authors: Alejandro Flores Herrera <alejandro.flores@ridgerun.com>
++ *
++ * This program is free software; you can redistribute it and/or modify it
++ * under the terms and conditions of the GNU General Public License,
++ * version 2, as published by the Free Software Foundation.
++ *
++ * This program is distributed in the hope it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
++ * more details.
++ *
++ * You should have received a copy of the GNU General Public License
++ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ *
++ */
++
++#ifndef TOPAZ2M_I2C_TABLES
++#define TOPAZ2M_I2C_TABLES
++
++struct reg_value {
++    u8 reg_addr;
++    u16 val;
++    u32 delay_ms;
++};
++
++typedef struct reg_value topaz2m_reg;
++
++static topaz2m_reg  mode_table_common[] = {
++
++    {0x01, 0x0000,0},
++    {0x02, 0x0001,0},
++    {0x03, 0x002f,0}
++};
++
++/* 1920x800@80fps, 2 lanes, raw10 */
++static topaz2m_reg  mode_1920x800_80fps[] = {
++
++    {0x04, 0xa0d0,0},
++    {0x05, 0x0015,0},
++    {0x06, 0x028a,0},
++    {0x07, 0x03c1,0},
++    {0x08, 0x0000,0},
++    {0x09, 0x0000,0},
++    {0x0a, 0x1a1f,0},
++    {0x0b, 0x0320,0},
++    {0x0c, 0x0000,0},
++    {0x0d, 0x0000,0},
++    {0x0e, 0x0100,0},
++    {0x0f, 0x0320,0},
++    {0x10, 0x0780,0},
++    {0x11, 0x0000,0},
++    {0x12, 0x0000,0},
++    {0x13, 0x0000,0},
++    {0x14, 0x0005,0},
++    {0x15, 0x0000,0},
++    {0x16, 0x0000,0},
++    {0x17, 0x0100,0},
++    {0x18, 0x0438,0},
++    {0x19, 0x0000,0},
++    {0x1a, 0x0000,0},
++    {0x1b, 0x0000,0},
++    {0x1c, 0x0000,0},
++    {0x1d, 0x0000,0},
++    {0x1e, 0x0100,0},
++    {0x1f, 0x0100,0},
++    {0x20, 0x0100,0},
++    {0x21, 0x0100,0},
++    {0x22, 0x0000,0},
++    {0x23, 0x0000,0},
++    {0x24, 0x0000,0},
++    {0x25, 0x0009,0},
++    {0x26, 0x0000,0},
++    {0x27, 0x1068,0},
++    {0x28, 0x015e,0},
++    {0x29, 0x0782,0},
++    {0x2a, 0x0008,0},
++    {0x2b, 0x040d,0},
++    {0x2c, 0x020d,0},
++    {0x2d, 0x104c,0},
++    {0x2e, 0x001f,0},
++    {0x2f, 0x0020,0},
++    {0x30, 0x0000,0},
++    {0x80, 0x3f87,0},
++    {0x81, 0x17ff,0},
++    {0x82, 0x2924,0},
++    {0x83, 0x0892,0},
++    {0x84, 0x09cd,0},
++    {0x85, 0x11ab,0},
++    {0x86, 0x004b,0},
++    {0x87, 0x0000,0},
++    {0x88, 0x8000,0},
++    {0x89, 0x00aa,0},
++    {0x8a, 0x000a,0},
++    {0x8b, 0x0002,0},
++    {0x8c, 0x2002,0},
++    {0x8d, 0x0000,0},
++    {0x8e, 0x003f,0},
++    {0x8f, 0x79eb,0},
++    {0x90, 0x4eaf,0},
++    {0x91, 0x0001,0},
++    {0x92, 0x0138,0},
++    {0x93, 0x0384,0},
++    {0x94, 0x0000,0},
++    {0x95, 0x1728,0},
++    {0x96, 0x001a,0},
++    {0x97, 0x0008,0},
++    {0x98, 0x0000,0},
++    {0x99, 0x040a,0},
++    {0x9a, 0x0010,0},
++    {0x9b, 0x0090,0},
++    {0x9c, 0x0a3e,0},
++    {0x9d, 0x0a2c,0},
++    {0x9e, 0x2528,0},
++    {0x9f, 0x0806,0},
++    {0xa0, 0x0c0a,0},
++    {0xa1, 0x0011,0},
++    {0xa2, 0x001e,0},
++    {0xa3, 0x0186,0},
++    {0xa4, 0x03fc,0},
++    {0xa5, 0x000c,0},
++    {0xa6, 0x0002,0},
++    {0xa7, 0x0000,0},
++    {0xa8, 0x0000,0},
++    {0xa9, 0x0000,0},
++    {0xaa, 0x0000,0},
++    {0xab, 0x0000,0},
++    {0xac, 0x0000,0},
++    {0xad, 0x0000,0},
++    {0xae, 0x0000,0},
++    {0xaf, 0x0000,0},
++    {0xb0, 0x0000,0},
++    {0xb1, 0x0000,0},
++    {0xb2, 0x0439,0},
++    {0xb3, 0x0000,0},
++    {0xb4, 0x000c,0},
++    {0xb5, 0x0000,0},
++    {0xb6, 0x8ce0,0},
++    {0xb7, 0x002b,0}
++};
++
++/* 1920x800@130fps, 2 lanes, raw8 */
++static topaz2m_reg  mode_1920x800_130fps[] = {
++    {0x04, 0xa0d0,0},
++    {0x05, 0x001a,0},
++    {0x06, 0x01a9,0},
++    {0x07, 0x0389,0},
++    {0x08, 0x0000,0},
++    {0x09, 0x0000,0},
++    {0x0a, 0x1a1f,0},
++    {0x0b, 0x0320,0},
++    {0x0c, 0x0000,0},
++    {0x0d, 0x0000,0},
++    {0x0e, 0x0100,0},
++    {0x0f, 0x0320,0},
++    {0x10, 0x0780,0},
++    {0x11, 0x0000,0},
++    {0x12, 0x0000,0},
++    {0x13, 0x0000,0},
++    {0x14, 0x0005,0},
++    {0x15, 0x0000,0},
++    {0x16, 0x0000,0},
++    {0x17, 0x0100,0},
++    {0x18, 0x0438,0},
++    {0x19, 0x0000,0},
++    {0x1a, 0x0000,0},
++    {0x1b, 0x0000,0},
++    {0x1c, 0x0000,0},
++    {0x1d, 0x0000,0},
++    {0x1e, 0x0100,0},
++    {0x1f, 0x0100,0},
++    {0x20, 0x0100,0},
++    {0x21, 0x0100,0},
++    {0x22, 0x0000,0},
++    {0x23, 0x0000,0},
++    {0x24, 0x0000,0},
++    {0x25, 0x0009,0},
++    {0x26, 0x0000,0},
++    {0x27, 0x1068,0},
++    {0x28, 0x015e,0},
++    {0x29, 0x0782,0},
++    {0x2a, 0x0008,0},
++    {0x2b, 0x040d,0},
++    {0x2c, 0x020d,0},
++    {0x2d, 0x104c,0},
++    {0x2e, 0x001f,0},
++    {0x2f, 0x0020,0},
++    {0x30, 0x0000,0},
++    {0x80, 0x3f87,0},
++    {0x81, 0x17ff,0},
++    {0x82, 0x2924,0},
++    {0x83, 0x0892,0},
++    {0x84, 0x09cd,0},
++    {0x85, 0x11ab,0},
++    {0x86, 0x004b,0},
++    {0x87, 0x0000,0},
++    {0x88, 0x8000,0},
++    {0x89, 0x00aa,0},
++    {0x8a, 0x000a,0},
++    {0x8b, 0x0002,0},
++    {0x8c, 0x2002,0},
++    {0x8d, 0x0000,0},
++    {0x8e, 0x003f,0},
++    {0x8f, 0x79eb,0},
++    {0x90, 0x4eaf,0},
++    {0x91, 0x0001,0},
++    {0x92, 0x0138,0},
++    {0x93, 0x0384,0},
++    {0x94, 0x0000,0},
++    {0x95, 0x1728,0},
++    {0x96, 0x001a,0},
++    {0x97, 0x0008,0},
++    {0x98, 0x0000,0},
++    {0x99, 0x040a,0},
++    {0x9a, 0x0010,0},
++    {0x9b, 0x0090,0},
++    {0x9c, 0x0a3e,0},
++    {0x9d, 0x0a2c,0},
++    {0x9e, 0x2528,0},
++    {0x9f, 0x0806,0},
++    {0xa0, 0x0c0a,0},
++    {0xa1, 0x0011,0},
++    {0xa2, 0x001e,0},
++    {0xa3, 0x0186,0},
++    {0xa4, 0x03fc,0},
++    {0xa5, 0x000c,0},
++    {0xa6, 0x0002,0},
++    {0xa7, 0x0000,0},
++    {0xa8, 0x0000,0},
++    {0xa9, 0x0000,0},
++    {0xaa, 0x0000,0},
++    {0xab, 0x0000,0},
++    {0xac, 0x0000,0},
++    {0xad, 0x0000,0},
++    {0xae, 0x0000,0},
++    {0xaf, 0x0000,0},
++    {0xb0, 0x0000,0},
++    {0xb1, 0x0000,0},
++    {0xb2, 0x0439,0},
++    {0xb3, 0x0000,0},
++    {0xb4, 0x000c,0},
++    {0xb5, 0x0000,0},
++    {0xb6, 0x8ce0,0},
++    {0xb7, 0x002b,0}
++};
++
++/* Pixel timing configuration */
++static topaz2m_reg pixel_timing[] = {
++    {0x50, 0x0552,0},
++    {0x50, 0xd550,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0xf551,0},
++    {0x50, 0x8551,0},
++    {0x50, 0xf550,0},
++    {0x50, 0x4550,0},
++    {0x50, 0xf552,0},
++    {0x50, 0xe552,0},
++    {0x50, 0x153a,0},
++    {0x50, 0xf532,0},
++    {0x50, 0x5532,0},
++    {0x50, 0xa552,0},
++    {0x50, 0xf152,0},
++    {0x50, 0xf152,0},
++    {0x50, 0x7152,0},
++    {0x50, 0x9156,0},
++    {0x50, 0xf114,0},
++    {0x50, 0xf114,0},
++    {0x50, 0xf114,0},
++    {0x50, 0xf114,0},
++    {0x50, 0xf114,0},
++    {0x50, 0xf114,0},
++    {0x50, 0xf114,0},
++    {0x50, 0x2114,0},
++    {0x50, 0xf110,0},
++    {0x50, 0xf110,0},
++    {0x50, 0xf110,0},
++    {0x50, 0xb110,0},
++    {0x50, 0xf510,0},
++    {0x50, 0x8510,0},
++    {0x50, 0x9550,0},
++    {0x50, 0x4552,0},
++    {0x50, 0x9512,0},
++    {0x50, 0xf532,0},
++    {0x50, 0xd532,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0xf53a,0},
++    {0x50, 0x553a,0},
++    {0x50, 0x142a,0},
++    {0x50, 0x202a,0},
++    {0x50, 0xf02e,0},
++    {0x50, 0xa02e,0},
++    {0x50, 0x802c,0},
++    {0x50, 0x300c,0},
++    {0x50, 0x404c,0},
++    {0x50, 0xf34c,0},
++    {0x50, 0xf34c,0},
++    {0x50, 0x734c,0},
++    {0x50, 0x014c,0},
++    {0x50, 0x304c,0},
++    {0x50, 0x9044,0},
++    {0x50, 0xf045,0},
++    {0x50, 0xf045,0},
++    {0x50, 0x5045,0},
++    {0x50, 0x6044,0},
++    {0x50, 0xe04c,0},
++    {0x50, 0xf14c,0},
++    {0x50, 0xf14c,0},
++    {0x50, 0x714c,0},
++    {0x50, 0x100c,0},
++    {0x50, 0x380c,0},
++    {0x50, 0x582c,0},
++    {0x50, 0x202c,0},
++    {0x50, 0x002c,0},
++    {0x50, 0x8028,0},
++    {0x50, 0xb02a,0},
++    {0x50, 0x742a,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0012,0},
++    {0x50, 0x000d,0},
++    {0x50, 0x0018,0},
++    {0x50, 0x0019,0},
++    {0x50, 0x0004,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x002a,0},
++    {0x50, 0x0012,0},
++    {0x50, 0x0037,0},
++    {0x50, 0x0050,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0},
++    {0x50, 0x0000,0}
++};
++
++#endif
+diff --git a/drivers/media/platform/mxc/capture/mx6s_capture.c b/drivers/media/platform/mxc/capture/mx6s_capture.c
+index a45d01ed8..98c0992dc 100644
+--- a/drivers/media/platform/mxc/capture/mx6s_capture.c
++++ b/drivers/media/platform/mxc/capture/mx6s_capture.c
+@@ -172,6 +172,8 @@
+ #define NUM_FORMATS ARRAY_SIZE(formats)
+ #define MX6SX_MAX_SENSORS    1
+ 
++#define NUM_CTRLS_HINT 5
++
+ struct csi_signal_cfg_t {
+ 	unsigned data_width:3;
+ 	unsigned clk_mode:2;
+@@ -266,6 +268,18 @@ static struct mx6s_fmt formats[] = {
+ 		.pixelformat	= V4L2_PIX_FMT_SBGGR8,
+ 		.mbus_code	= MEDIA_BUS_FMT_SBGGR8_1X8,
+ 		.bpp		= 1,
++	}, {
++		.name		= "Grey8 (Y8)",
++		.fourcc		= V4L2_PIX_FMT_GREY,
++		.pixelformat	= V4L2_PIX_FMT_GREY,
++		.mbus_code	= MEDIA_BUS_FMT_Y8_1X8,
++		.bpp		= 1,
++	}, {
++		.name		= "Grey10 (Y10)",
++		.fourcc		= V4L2_PIX_FMT_Y10,
++		.pixelformat	= V4L2_PIX_FMT_Y10,
++		.mbus_code	= MEDIA_BUS_FMT_Y10_1X10,
++		.bpp		= 2,
+ 	}
+ };
+ 
+@@ -315,8 +329,6 @@ struct mx6s_csi_dev {
+ 	void __iomem *regbase;
+ 	int irq;
+ 
+-	u32      nextfb;
+-	u32      skipframe;
+ 	u32	 type;
+ 	u32 bytesperline;
+ 	v4l2_std_id std;
+@@ -446,8 +458,6 @@ static void csisw_reset(struct mx6s_csi_dev *csi_dev)
+ 	isr = csi_read(csi_dev, CSI_CSISR);
+ 	csi_write(csi_dev, isr, CSI_CSISR);
+ 
+-	cr18 |= csi_dev->soc->baseaddr_switch;
+-
+ 	/* Enable csi  */
+ 	cr18 |= BIT_CSI_ENABLE;
+ 	csi_write(csi_dev, cr18, CSI_CSICR18);
+@@ -745,7 +755,6 @@ static int mx6s_csi_enable(struct mx6s_csi_dev *csi_dev)
+ 	unsigned long val;
+ 	int timeout, timeout2;
+ 
+-	csi_dev->skipframe = 0;
+ 	csisw_reset(csi_dev);
+ 
+ 	if (pix->field == V4L2_FIELD_INTERLACED)
+@@ -836,10 +845,12 @@ static int mx6s_configure_csi(struct mx6s_csi_dev *csi_dev)
+ 	}
+ 
+ 	switch (csi_dev->fmt->pixelformat) {
++	case V4L2_PIX_FMT_GREY:
+ 	case V4L2_PIX_FMT_YUV32:
+ 	case V4L2_PIX_FMT_SBGGR8:
+ 		width = pix->width;
+ 		break;
++	case V4L2_PIX_FMT_Y10:
+ 	case V4L2_PIX_FMT_UYVY:
+ 	case V4L2_PIX_FMT_YUYV:
+ 		if (csi_dev->csi_mipi_mode == true)
+@@ -857,7 +868,6 @@ static int mx6s_configure_csi(struct mx6s_csi_dev *csi_dev)
+ 	if (csi_dev->csi_mipi_mode == true) {
+ 		cr1 = csi_read(csi_dev, CSI_CSICR1);
+ 		cr1 &= ~BIT_GCLK_MODE;
+-		csi_write(csi_dev, cr1, CSI_CSICR1);
+ 
+ 		cr18 = csi_read(csi_dev, CSI_CSICR18);
+ 		cr18 &= ~BIT_MIPI_DATA_FORMAT_MASK;
+@@ -869,13 +879,19 @@ static int mx6s_configure_csi(struct mx6s_csi_dev *csi_dev)
+ 			cr18 |= BIT_MIPI_DATA_FORMAT_YUV422_8B;
+ 			break;
+ 		case V4L2_PIX_FMT_SBGGR8:
++		case V4L2_PIX_FMT_GREY:
+ 			cr18 |= BIT_MIPI_DATA_FORMAT_RAW8;
+ 			break;
++		case V4L2_PIX_FMT_Y10:
++			cr18 |= BIT_MIPI_DATA_FORMAT_RAW10;
++			cr1 |= BIT_PIXEL_BIT;
++			break;
+ 		default:
+ 			pr_debug("   fmt not supported\n");
+ 			return -EINVAL;
+ 		}
+ 
++		csi_write(csi_dev, cr1, CSI_CSICR1);
+ 		csi_write(csi_dev, cr18, CSI_CSICR18);
+ 	}
+ 	return 0;
+@@ -889,6 +905,8 @@ static int mx6s_start_streaming(struct vb2_queue *vq, unsigned int count)
+ 	unsigned long phys;
+ 	unsigned long flags;
+ 
++	mx6s_configure_csi(csi_dev);
++
+ 	if (count < 2)
+ 		return -ENOBUFS;
+ 
+@@ -940,8 +958,6 @@ static int mx6s_start_streaming(struct vb2_queue *vq, unsigned int count)
+ 	mx6s_update_csi_buf(csi_dev, phys, buf->internal.bufnum);
+ 	list_move_tail(csi_dev->capture.next, &csi_dev->active_bufs);
+ 
+-	csi_dev->nextfb = 0;
+-
+ 	spin_unlock_irqrestore(&csi_dev->slock, flags);
+ 
+ 	return mx6s_csi_enable(csi_dev);
+@@ -1047,7 +1063,6 @@ static void mx6s_csi_frame_done(struct mx6s_csi_dev *csi_dev,
+ 	}
+ 
+ 	csi_dev->frame_count++;
+-	csi_dev->nextfb = (bufnum == 0 ? 1 : 0);
+ 
+ 	/* Config discard buffer to active_bufs */
+ 	if (list_empty(&csi_dev->capture)) {
+@@ -1130,7 +1145,6 @@ static irqreturn_t mx6s_csi_irq_handler(int irq, void *data)
+ 		cr18 |= BIT_CSI_ENABLE;
+ 		csi_write(csi_dev, cr18, CSI_CSICR18);
+ 
+-		csi_dev->skipframe = 1;
+ 		pr_debug("base address switching Change Err.\n");
+ 	}
+ 
+@@ -1145,22 +1159,9 @@ static irqreturn_t mx6s_csi_irq_handler(int irq, void *data)
+ 		 * PDM TKT230775 */
+ 		pr_debug("Skip two frames\n");
+ 	} else if (status & BIT_DMA_TSF_DONE_FB1) {
+-		if (csi_dev->nextfb == 0) {
+-			if (csi_dev->skipframe > 0)
+-				csi_dev->skipframe--;
+-			else
+-				mx6s_csi_frame_done(csi_dev, 0, false);
+-		} else
+-			pr_warn("skip frame 0\n");
+-
++		mx6s_csi_frame_done(csi_dev, 0, false);
+ 	} else if (status & BIT_DMA_TSF_DONE_FB2) {
+-		if (csi_dev->nextfb == 1) {
+-			if (csi_dev->skipframe > 0)
+-				csi_dev->skipframe--;
+-			else
+-				mx6s_csi_frame_done(csi_dev, 1, false);
+-		} else
+-			pr_warn("skip frame 1\n");
++		mx6s_csi_frame_done(csi_dev, 1, false);
+ 	}
+ 
+ 	spin_unlock(&csi_dev->slock);
+@@ -1896,6 +1897,9 @@ static int mx6s_csi_probe(struct platform_device *pdev)
+ 	snprintf(csi_dev->v4l2_dev.name,
+ 		 sizeof(csi_dev->v4l2_dev.name), "CSI");
+ 
++	v4l2_ctrl_handler_init(&csi_dev->ctrl_handler, NUM_CTRLS_HINT);
++	csi_dev->v4l2_dev.ctrl_handler = &csi_dev->ctrl_handler;
++
+ 	ret = v4l2_device_register(dev, &csi_dev->v4l2_dev);
+ 	if (ret < 0) {
+ 		dev_err(dev, "v4l2_device_register() failed: %d\n", ret);
+diff --git a/drivers/media/platform/mxc/capture/mxc_mipi_csi.c b/drivers/media/platform/mxc/capture/mxc_mipi_csi.c
+index e489c83ad..8c0bed58d 100644
+--- a/drivers/media/platform/mxc/capture/mxc_mipi_csi.c
++++ b/drivers/media/platform/mxc/capture/mxc_mipi_csi.c
+@@ -38,6 +38,7 @@
+ #include <linux/videodev2.h>
+ #include <media/v4l2-subdev.h>
+ #include <media/v4l2-device.h>
++#include <media/v4l2-ctrls.h>
+ 
+ static int debug;
+ module_param(debug, int, 0644);
+@@ -186,6 +187,8 @@ MODULE_PARM_DESC(debug, "Debug level (0-2)");
+ 
+ #define DEFAULT_SCLK_CSIS_FREQ	166000000UL
+ 
++#define NUM_CTRLS_HINT 5
++
+ enum {
+ 	ST_POWERED	= 1,
+ 	ST_STREAMING	= 2,
+@@ -260,6 +263,7 @@ struct csi_state {
+ 	struct v4l2_subdev mipi_sd;
+ 	struct v4l2_subdev *sensor_sd;
+ 	struct v4l2_device	v4l2_dev;
++	struct v4l2_ctrl_handler  ctrl_handler;
+ 
+ 	u8 index;
+ 	struct platform_device *pdev;
+@@ -322,6 +326,14 @@ static const struct csis_pix_format mipi_csis_formats[] = {
+ 		.code = MEDIA_BUS_FMT_SBGGR8_1X8,
+ 		.fmt_reg = MIPI_CSIS_ISPCFG_FMT_RAW8,
+ 		.data_alignment = 8,
++	}, {
++		.code	= MEDIA_BUS_FMT_Y8_1X8,
++		.fmt_reg = MIPI_CSIS_ISPCFG_FMT_RAW8,
++		.data_alignment = 8,
++	}, {
++		.code	= MEDIA_BUS_FMT_Y10_1X10,
++		.fmt_reg = MIPI_CSIS_ISPCFG_FMT_RAW10,
++		.data_alignment = 10,
+ 	}
+ };
+ 
+@@ -345,9 +357,10 @@ static const struct csis_pix_format *find_csis_format(u32 code)
+ {
+ 	int i;
+ 
+-	for (i = 0; i < ARRAY_SIZE(mipi_csis_formats); i++)
++	for (i = 0; i < ARRAY_SIZE(mipi_csis_formats); i++) {
+ 		if (code == mipi_csis_formats[i].code)
+ 			return &mipi_csis_formats[i];
++	}
+ 	return NULL;
+ }
+ 
+@@ -942,6 +955,27 @@ static int subdev_notifier_bound(struct v4l2_async_notifier *notifier,
+ 	return 0;
+ }
+ 
++static int subdev_notifier_complete(struct v4l2_async_notifier *async) {
++	struct csi_state *state = notifier_to_mipi_dev(async);
++	struct v4l2_device *dev = state->mipi_sd.v4l2_dev;
++
++	v4l2_info(&state->v4l2_dev,
++		"Adding v4l2 controls from (%s) to (%s)\n",
++		state->sensor_sd->name, state->v4l2_dev.name);
++
++	v4l2_ctrl_add_handler(state->v4l2_dev.ctrl_handler,
++		state->sensor_sd->ctrl_handler, NULL, TRUE);
++
++	v4l2_info(&state->v4l2_dev,
++		"Adding v4l2 controls from (%s) to (%s)\n",
++		state->v4l2_dev.name, dev->name);
++
++	v4l2_ctrl_add_handler(dev->ctrl_handler,
++		state->v4l2_dev.ctrl_handler, NULL, TRUE);
++
++	return v4l2_device_register_subdev_nodes(&state->v4l2_dev);
++}
++
+ static int mipi_csis_parse_dt(struct platform_device *pdev,
+ 			    struct csi_state *state)
+ {
+@@ -986,6 +1020,7 @@ static const struct of_device_id mipi_csis_of_match[];
+ 
+ static const struct v4l2_async_notifier_operations mxc_mipi_csi_subdev_ops = {
+ 	.bound = subdev_notifier_bound,
++	.complete = subdev_notifier_complete,
+ };
+ 
+ /* register parent dev */
+@@ -1057,6 +1092,7 @@ static int mipi_csis_subdev_init(struct v4l2_subdev *mipi_sd,
+ 		 CSIS_SUBDEV_NAME, state->index);
+ 	mipi_sd->flags |= V4L2_SUBDEV_FL_HAS_DEVNODE;
+ 	mipi_sd->dev = &pdev->dev;
++	mipi_sd->ctrl_handler = &state->ctrl_handler;
+ 
+ 	state->csis_fmt = &mipi_csis_formats[0];
+ 	state->format.code = mipi_csis_formats[0].code;
+@@ -1146,6 +1182,9 @@ static int mipi_csis_probe(struct platform_device *pdev)
+ 	}
+ 	v4l2_info(&state->v4l2_dev, "mipi csi v4l2 device registered\n");
+ 
++	ret = v4l2_ctrl_handler_init(&state->ctrl_handler, NUM_CTRLS_HINT);
++	state->v4l2_dev.ctrl_handler = &state->ctrl_handler;
++
+ 	/* .. and a pointer to the subdev. */
+ 	platform_set_drvdata(pdev, state);
+ 
+diff --git a/drivers/media/v4l2-core/v4l2-ctrls.c b/drivers/media/v4l2-core/v4l2-ctrls.c
+index 7ac7a5063..f99199790 100644
+--- a/drivers/media/v4l2-core/v4l2-ctrls.c
++++ b/drivers/media/v4l2-core/v4l2-ctrls.c
+@@ -768,6 +768,32 @@ const char *v4l2_ctrl_get_name(u32 id)
+ 	case V4L2_CID_MIN_BUFFERS_FOR_OUTPUT:	return "Min Number of Output Buffers";
+ 	case V4L2_CID_ALPHA_COMPONENT:		return "Alpha Component";
+ 	case V4L2_CID_COLORFX_CBCR:		return "Color Effects, CbCr";
++	case V4L2_CID_FRAME_RATE:		return "Frame Rate";
++	case V4L2_CID_ROI_OFFSET_COL:		return "ROI Offset Col";
++	case V4L2_CID_ROI_SELECT:		return "ROI Select";
++	case V4L2_CID_ROI_WIDTH:		return "ROI Width";
++	case V4L2_CID_ROI1_ANA_GAIN:		return "ROI 1 Analog Gain";
++	case V4L2_CID_ROI1_DIG_GAIN:		return "ROI 1 Digital Gain";
++	case V4L2_CID_ROI1_EXPOSURE:		return "ROI 1 Exposure";
++	case V4L2_CID_ROI1_HEIGHT:		return "ROI 1 Height";
++	case V4L2_CID_ROI1_HFLIP:		return "ROI 1 Horizontal Flip";
++	case V4L2_CID_ROI1_VFLIP:		return "ROI 1 Vertical Flip";
++	case V4L2_CID_ROI1_OFFSET_ROW:		return "ROI 1 Offset Row";
++	case V4L2_CID_ROI1_HSUB_SAMPLING:	return "ROI 1 Horizontal Sub Sampling";
++	case V4L2_CID_ROI1_VSUB_SAMPLING:	return "ROI 1 Vertical Sub Sampling";
++	case V4L2_CID_ROI2_ANA_GAIN:		return "ROI 2 Analog Gain";
++	case V4L2_CID_ROI2_DIG_GAIN:		return "ROI 2 Digital Gain";
++	case V4L2_CID_ROI2_EXPOSURE:		return "ROI 2 Exposure";
++	case V4L2_CID_ROI2_HEIGHT:		return "ROI 2 Height";
++	case V4L2_CID_ROI2_HFLIP:		return "ROI 2 Horizontal Flip";
++	case V4L2_CID_ROI2_VFLIP:		return "ROI 2 Vertical Flip";
++	case V4L2_CID_ROI2_OFFSET_ROW:		return "ROI 2 Offset Row";
++	case V4L2_CID_ROI2_HSUB_SAMPLING:	return "ROI 2 Horizontal Sub Sampling";
++	case V4L2_CID_ROI2_VSUB_SAMPLING:	return "ROI 2 Vertical Sub Sampling";
++	case V4L2_CID_TOPAZ_TEST_PATTERN:	return "Test Pattern";
++	case V4L2_CID_IDLE_TOGGLE: 		return "Idle enable";
++	case V4L2_CID_TRIGGER_MODE:		return "Trigger Mode";
++	case V4L2_CID_IMAGE_OFFSET:		return "Image Offset";
+ 
+ 	/* Codec controls */
+ 	/* The MPEG controls are applicable to all codec controls
+@@ -1177,6 +1203,10 @@ void v4l2_ctrl_fill(u32 id, const char **name, enum v4l2_ctrl_type *type,
+ 	case V4L2_CID_RDS_RX_TRAFFIC_ANNOUNCEMENT:
+ 	case V4L2_CID_RDS_RX_TRAFFIC_PROGRAM:
+ 	case V4L2_CID_RDS_RX_MUSIC_SPEECH:
++	case V4L2_CID_ROI1_HFLIP:
++	case V4L2_CID_ROI1_VFLIP:
++	case V4L2_CID_ROI2_HFLIP:
++	case V4L2_CID_ROI2_VFLIP:
+ 		*type = V4L2_CTRL_TYPE_BOOLEAN;
+ 		*min = 0;
+ 		*max = *step = 1;
+@@ -1265,6 +1295,14 @@ void v4l2_ctrl_fill(u32 id, const char **name, enum v4l2_ctrl_type *type,
+ 	case V4L2_CID_MPEG_VIDEO_HEVC_SIZE_OF_LENGTH_FIELD:
+ 	case V4L2_CID_MPEG_VIDEO_HEVC_TIER:
+ 	case V4L2_CID_MPEG_VIDEO_HEVC_LOOP_FILTER_MODE:
++	case V4L2_CID_ROI1_ANA_GAIN:
++	case V4L2_CID_ROI2_ANA_GAIN:
++	case V4L2_CID_ROI1_HSUB_SAMPLING:
++	case V4L2_CID_ROI1_VSUB_SAMPLING:
++	case V4L2_CID_ROI2_HSUB_SAMPLING:
++	case V4L2_CID_ROI2_VSUB_SAMPLING:
++	case V4L2_CID_TOPAZ_TEST_PATTERN:
++	case V4L2_CID_TRIGGER_MODE:
+ 		*type = V4L2_CTRL_TYPE_MENU;
+ 		break;
+ 	case V4L2_CID_LINK_FREQ:
+diff --git a/include/uapi/linux/v4l2-controls.h b/include/uapi/linux/v4l2-controls.h
+index a2669b79b..b0202cf4b 100644
+--- a/include/uapi/linux/v4l2-controls.h
++++ b/include/uapi/linux/v4l2-controls.h
+@@ -143,8 +143,36 @@ enum v4l2_colorfx {
+ #define V4L2_CID_ALPHA_COMPONENT		(V4L2_CID_BASE+41)
+ #define V4L2_CID_COLORFX_CBCR			(V4L2_CID_BASE+42)
+ 
+-/* last CID + 1 */
+-#define V4L2_CID_LASTP1                         (V4L2_CID_BASE+43)
++enum TOPAZ2M_CUSTOM_V4L2_CID {
++  V4L2_CID_FRAME_RATE = V4L2_CID_BASE+43,
++  V4L2_CID_ROI_OFFSET_COL,
++  V4L2_CID_ROI_SELECT,
++  V4L2_CID_ROI_WIDTH,
++  V4L2_CID_ROI1_ANA_GAIN,
++  V4L2_CID_ROI1_DIG_GAIN,
++  V4L2_CID_ROI1_EXPOSURE,
++  V4L2_CID_ROI1_HEIGHT,
++  V4L2_CID_ROI1_HFLIP,
++  V4L2_CID_ROI1_VFLIP,
++  V4L2_CID_ROI1_OFFSET_ROW,
++  V4L2_CID_ROI1_HSUB_SAMPLING,
++  V4L2_CID_ROI1_VSUB_SAMPLING,
++  V4L2_CID_ROI2_ANA_GAIN,
++  V4L2_CID_ROI2_DIG_GAIN,
++  V4L2_CID_ROI2_EXPOSURE,
++  V4L2_CID_ROI2_HEIGHT,
++  V4L2_CID_ROI2_HFLIP,
++  V4L2_CID_ROI2_VFLIP,
++  V4L2_CID_ROI2_OFFSET_ROW,
++  V4L2_CID_ROI2_HSUB_SAMPLING,
++  V4L2_CID_ROI2_VSUB_SAMPLING,
++  V4L2_CID_TOPAZ_TEST_PATTERN,
++  V4L2_CID_IDLE_TOGGLE,
++  V4L2_CID_TRIGGER_MODE,
++  V4L2_CID_IMAGE_OFFSET,
++  /* last CID + 1 */
++  V4L2_CID_LASTP1,
++};
+ 
+ /* USER-class private control IDs */
+ 
+-- 
+2.25.1
+

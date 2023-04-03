@@ -1,0 +1,19 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "1"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ##OEROOT##/meta \
+  ##OEROOT##/meta-poky \
+  ##OEROOT##/meta-yocto-bsp \
+  ##OEROOT##/../meta-freescale \
+  ##OEROOT##/../meta-freescale-3rdparty \
+  ##OEROOT##/../meta-toradex-nxp \
+  ##OEROOT##/../meta-toradex-bsp-common \
+  ##OEROOT##/../meta-toradex-distro \
+  ##OEROOT##/../meta-openembedded/meta-oe \
+  ##OEROOT##/../meta-teledyne \
+  "

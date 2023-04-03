@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="dunfell" sync-j="4"/>
+
+  <!-- Repositories to fetch -->
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="oe" fetch="git://git.openembedded.org" />
+  <remote name="tdx" fetch="https://git.toradex.com"/>
+  <remote name="freescale" fetch="https://github.com/Freescale"/>
+
+  <!-- Projects to fetch -->
+  <!-- "name": git repository's name on hosting server
+       "remote": the remote host from above (if not the default)
+       "revision": commit to checkout (if not the default)
+       "path": directory where git repository gets cloned/synced -->
+
+  <project name="poky" path="poky" remote="yocto" revision="50aa474c841c6c232f67a1855841acbdd483a4a9" upstream="dunfell" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="deee226017877d51188e0a46f9e6b93c10ffbb34" upstream="dunfell" />
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="tdx" revision="a609f5749a905e176094bea82593a5e55f3fcaa3" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="tdx" revision="029a663150449a5e71b84dd4000476754d525c8c" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="cbde0286cb85bc445e70210b8df38f29b4784c08" upstream="dunfell-5.x.y"/>
+  <project name="meta-freescale" path="meta-freescale" remote="freescale" revision="dbfb1f0101b57de5375b2efee367b093bdbcc933" upstream="dunfell"/>
+  <project name="meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="freescale" revision="88773cbb6367496b1a2ddca683afcd352be3cd58" upstream="dunfell"/>
+</manifest>
