@@ -41,16 +41,10 @@ If you already had a Yocto environment from a previous delivery, you can follow 
 3. Go to the **Pre-build configurations** subsection and continue from there.
 
 # Get the Yocto project environment
-## Option A: Use the attached .tar file
 1. Download the attached teledyne-yocto.tar file.
 2. Move into the path where the file is placed and extract its contents:
 ```
 tar -xvf teledyne-yocto.tar
-```
-## Option B: Clone the project from the RidgeRun repository
-1. If you have access to the project repository, you can clone the project with the following command:
-```
-git clone -b v0.6.0 https://gitlab.ridgerun.com/RidgeRun/customers/teledyne/teledyne-yocto.git
 ```
 # Setup the Yocto environment
 1. Move into the project directory and set an environment variable for this path:
